@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/CormorantGaramond-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/CormorantGaramond-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/CormorantGaramond-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/CormorantGaramond-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/CormorantGaramond-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/NotoSans-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/NotoSans-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/NotoSans-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/NotoSans-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/NotoSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "JejuMyeongjoOTF";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/JejuMyeongjoOTF.otf") format("otf");
+}
+
+body{
+    font-family: "NotoSans", sans-serif;
+    font-size: 10rem;
+}
+/* 제주폰트 클래스 */
+.jeju_font{
+    font-family: "JejuMyeongjoOTF";
+}
