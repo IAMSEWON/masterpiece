@@ -5,6 +5,7 @@ header {
     left: 0;
     width: 100%;
     transition: 0.5s;
+    z-index: 100;
 }
 .header_wrap {
     position: relative;
@@ -18,6 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
+    position: relative;
 }
 
 .header_wrap .top_wrap .phone{
@@ -64,6 +66,51 @@ header {
     width: 30px;
 }
 
+.header_wrap .bottom_wrap{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+.header_wrap .bottom_wrap:hover{
+    background-color: #fff;
+}
+.header_wrap .bottom_wrap:hover li{
+    color: #957064;
+}
+.header_wrap .bottom_wrap ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.header_wrap .bottom_wrap li{
+    color: #fff;
+    font-size: 18px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    position: relative;
+}
+
+.header_wrap .bottom_wrap li .sub{
+    display: none;
+    color: #4E473D;
+    font-size: 18px;
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    gap:27px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 27px 14px;
+}
+.header_wrap .bottom_wrap li:hover .sub{
+    display: flex;
+}
+
 header.bw {
     background-color: #fff;
 }
@@ -87,3 +134,92 @@ header.bw .top_wrap .ham_btn .line{
     gap: 14px;
  }
 
+
+ /* 빠른 상담 바 */
+.consult_btn_wrap{
+    position: fixed;
+    z-index: 200;
+    top: 100%;
+}.consult_btn_wrap.active{
+    transform: translateY(-200px);
+}
+.consult_btn_wrap .btn{
+    background-color: #957064;
+    width: 260px;
+    height: 52px;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.consult_btn_wrap .btn img{}
+
+.consult_btn_wrap{
+
+}
+.consult_btn_wrap .inner{
+    width: 100vw;
+    height: 200px;
+    background-color: #957064;
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    padding: 56px 0;
+}
+.consult_btn_wrap .inner .input_wrap{
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+.consult_btn_wrap input[type="text"], .consult_btn_wrap select{
+    width: 260px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    padding: 0 18px;
+}
+.consult_btn_wrap select{
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    background: #fff url(/assets/img/layout/select_down.png) no-repeat 93% 50%/13px auto;
+    color: #C9CDD2;
+}
+.consult_btn_wrap select option{
+    color: #000;
+}
+.consult_btn_wrap input[type="text"]::placeholder{
+    color: #C9CDD2;
+}
+.consult_btn_wrap .checkbox_wrap{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 125px;
+}
+.consult_btn_wrap .checkbox_wrap label{
+    margin-left: 10px;
+}
+.consult_btn_wrap .request_btn{
+    width: 160px;
+    height: 92px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #fff;
+    cursor: pointer;
+}
