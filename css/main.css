@@ -12,7 +12,7 @@
 
 .sec01 .txt_wrap{
     color: #fff;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     position: absolute;
     bottom: 368px;
     left: 212px;
@@ -53,4 +53,94 @@
     writing-mode: vertical-lr;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+.sec02 {
+    height: 970px;
+    width: 100%;
+    background: url('/assets/img/main/main_sec02_bg.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: relative;
+}
+.sec02  .deco_txt{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.sec02 .txt_wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec02 .txt_wrap .title{
+    font-size: 110px;
+    margin-bottom: 33px;
+    position: relative;
+    display: block;
+}
+.sec02 .txt_wrap .title::after{
+    content: '';
+    position: absolute;
+    top:-16px;
+    left: -16px;
+    width: 16px;
+    height: 16px;
+    background-color: #957064;
+}
+.sec02 .txt_wrap h3{
+    color: #957064;
+    margin-bottom: 55px;
+    font-size: 44px;
+}
+.sec02 .txt_wrap p{
+    color: #4E473D;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.sec03{
+    width: 100%;
+    height: 1080px;
+    background: url('/assets/img/main/main_sec03_bg.png') no-repeat;
+    position: relative;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.sec03 .inner{
+    width: calc(100% - 274px);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    height: 1323px;
+}
+
+.sec04 {
+    width: 100%;
+    height: 100vh;
+    background-color: #9F8B84;
+    background: linear-gradient(to bottom, #9F8B84, rgba(0, 0, 0, 0));
+    position: relative;
+}
+
+.sec04 .inner{
+    border: 1px solid red;
+    width: 5000px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 10;
 }

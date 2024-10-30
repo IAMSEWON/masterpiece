@@ -120,6 +120,13 @@ header.bw .header_wrap .top_wrap .logo a{
 header.bw .top_wrap .ham_btn .line{
     background-color: #473834;
 }
+header.bw .header_wrap .bottom_wrap li{
+    color: #957064;
+}
+
+header.bw .bottom_wrap{
+    display: none;
+}
 
 
 
@@ -222,4 +229,47 @@ header.bw .top_wrap .ham_btn .line{
     font-weight: 700;
     background-color: #fff;
     cursor: pointer;
+}
+
+
+/* 푸터 */
+footer{
+    background: #000;
+    color: #72787F;
+    width: 100%;
+    height: 294px;
+    padding: 70px 0 60px;
+}
+footer .footer_wrap{
+    max-width: 90%;
+    width: 1496px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .top{
+    display: flex;
+    gap: 44px;
+    width: 100%;
+    border-bottom: 1px solid #72787F;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+footer .top .f_w{
+    color: #fff;
+}
+footer .top{}
+
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+footer .bottom .txt_wrap + .txt_wrap{
+    margin-top: 19px;
+}
+footer .bottom .txt_wrap span{}
+footer .bottom .txt_wrap span + span{
+    margin-left: 39px;
 }
