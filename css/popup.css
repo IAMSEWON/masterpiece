@@ -1,0 +1,226 @@
+.popArea {display: none; z-index: 999999}
+.popArea .popBg {background: rgba(0,0,0,0.7);}
+.popArea .popBox {width: 65%; transform: translate(-50%, -50%) scale(0); transition: 0.8s;}
+.popArea .popBox.on {transform: translate(-50%, -50%) scale(1);}
+.popArea .popBox .popImg {display: none;}
+.popArea .popBox .cancelIco {
+    position: absolute;
+    max-width: 5rem;
+    top: 3%;
+    right: 2%;
+    height: 40px;
+    width: 55px;
+}
+
+@media all and (max-width: 880px){
+    .popArea .popBox {width: 90%}
+    .popArea .popBox .cancelIco {max-width: 2rem; top: 3%; right: 6%;}
+}
+
+* {box-sizing: border-box;}
+html {font-size: 11px; scroll-behavior: smooth;}
+body {font-family: 'NanumSquareAc', sans-serif; scroll-behavior: smooth; color: #000}
+body::-webkit-scrollbar {width: 8px;}
+body::-webkit-scrollbar-thumb {background-color: #ccc; border-radius: 10px; background-clip: padding-box; border: 2px solid transparent;}
+body::-webkit-scrollbar-track {background-color: #fff;}
+.cg {font-family: 'CormorantGaramond', sans-serif;}
+.om {font-family: 'OneMobile', sans-serif;}
+.ns {font-family: 'notoSansKr', sans-serif;}
+
+/* font size */
+.fs11 {font-size: 1.1rem}
+.fs12 {font-size: 1.2rem}
+.fs13 {font-size: 1.3rem}
+.fs14 {font-size: 1.4rem}
+.fs15 {font-size: 1.5rem}
+.fs16 {font-size: 1.6rem}
+.fs17 {font-size: 1.7rem}
+.fs18 {font-size: 1.8rem}
+.fs19 {font-size: 1.9rem}
+.fs20 {font-size: 2.0rem}
+.fs21 {font-size: 2.1rem}
+.fs22 {font-size: 2.2rem}
+.fs23 {font-size: 2.3rem}
+.fs24 {font-size: 2.4rem}
+.fs25 {font-size: 2.5rem}
+.fs26 {font-size: 2.6rem}
+.fs27 {font-size: 2.7rem}
+.fs28 {font-size: 2.8rem}
+.fs29 {font-size: 2.9rem}
+.fs30 {font-size: 3rem}
+.fs31 {font-size: 3.1rem}
+.fs32 {font-size: 3.2rem}
+.fs33 {font-size: 3.3rem}
+.fs34 {font-size: 3.4rem}
+.fs35 {font-size: 3.5rem}
+.fs36 {font-size: 3.6rem}
+.fs37 {font-size: 3.7rem}
+.fs38 {font-size: 3.8rem}
+.fs39 {font-size: 3.9rem}
+.fs40 {font-size: 4.0rem}
+.fs44 {font-size: 4.4rem}
+.fs45 {font-size: 4.5rem}
+.fs47 {font-size: 4.7rem}
+.fs48 {font-size: 4.8rem}
+.fs49 {font-size: 4.9rem}
+.fs50 {font-size: 5rem}
+.fs52 {font-size: 5.2rem}
+.fs54 {font-size: 5.4rem}
+.fs55 {font-size: 5.5rem}
+.fs56 {font-size: 5.6rem}
+.fs60 {font-size: 6rem}
+.fs64 {font-size: 6.4rem}
+.fs65 {font-size: 6.5rem}
+.fs70 {font-size: 7rem}
+.fs80 {font-size: 8.0rem}
+.fs88 {font-size: 8.8rem}
+.fs96 {font-size: 9.6rem}
+.fs109 {font-size: 10.9rem}
+.fs110 {font-size: 11rem}
+.fs136 {font-size: 13.6rem}
+.fs140 {font-size: 14rem}
+.fs154 {font-size: 15.4rem}
+.fs200 {font-size: 20rem}
+.fs269 {font-size: 26.9rem}
+
+/* font weight */
+.fwt100 {font-weight: 100;}
+.fwt200 {font-weight: 200;}
+.fwt300 {font-weight: 300;}
+.fwt400 {font-weight: 400;}
+.fwt500 {font-weight: 500;}
+.fwt600 {font-weight: 600;}
+.fwt700 {font-weight: 700;}
+.fwt800 {font-weight: 800;}
+.fwt900 {font-weight: 900;}
+.fwtbold {font-weight: bold}
+
+/* font color */
+.fc0 {color: #fff}
+.fc1 {color: #000}
+.fc2 {color: #00268E}
+
+.inner1496 {max-width: 149.6rem;}
+
+/* background color */
+.bc0 {background-color: #fff}
+
+/* border */
+.bd1 {border: 1px solid #E3E5EB}
+.bd2 {border: 1px solid #00A9A9}
+
+/* border-radius */
+.br10 {border-radius: 10px;}
+.br15 {border-radius: 15px;}
+.br20 {border-radius: 20px;}
+.br28 {border-radius: 28px;}
+.br33 {border-radius: 33px;}
+
+/* box-shadow */
+.boxsd1 {box-shadow: 5px 5px 20px rgba(0,0,0,0.13);}
+
+/* css */
+.block {display: block}
+.inblock {display: inline-block;}
+
+.flex {display: flex;}
+.row {flex-direction: row}
+.column {flex-direction: column;}
+.justy_btw {justify-content: space-between;}
+.justy_cnt {justify-content: center;}
+.justy_ard {justify-content: space-around;;}
+.alc {align-items: center;}
+.alstart {align-items: flex-start;}
+.alend {align-items: flex-end;}
+.fxwrap {flex-wrap: wrap}
+
+.abs {position: absolute;}
+.fixed {position: fixed;}
+.rel {position: relative;}
+.x_center {left: 50%; transform: translateX(-50%);}
+.y_center {top: 50%; transform: translateY(-50%);}
+.w_center {left: 50%; top: 50%; transform: translate(-50%,-50%);}
+.g_center {display: grid; place-items: center;}
+
+.t_center {text-align: center}
+.t_right {text-align: right}
+.t_left {text-align: left}
+.m_center {margin: 0 auto;}
+.w100 {width: 100%;}
+.h100 {height: 100%;}
+
+.right0 {right: 0}
+.left0 {left: 0}
+.top0 {top: 0}
+.bottom0 {bottom: 0}
+
+.pointer {cursor: pointer;}
+
+.img > img {width: 100%; display: block;}
+
+.pc_view {display: block;}
+.mo_view {display: none;}
+.pc_view_flex {display: flex;}
+.mo_view_flex {display: none;}
+
+@media all and (max-width: 1920px){
+    html {font-size: 10px}
+}
+
+@media all and (max-width: 1780px){
+    html {font-size: 9px}
+}
+
+@media all and (max-width: 1480px){
+    html {font-size: 8px}
+}
+
+@media all and (max-width: 880px){
+    html {font-size: 3.2vw}
+    body {overflow: hidden;}
+
+    .pc_view {display: none;}
+    .mo_view {display: block;}
+    .pc_view_flex {display: none;}
+    .mo_view_flex {display: flex;}
+}
+
+@media all and (max-width: 520px){
+    html {font-size: 2.65vw}
+}
+
+@media all and (max-width: 400px){
+    html {font-size: 2.4vw}
+}
+
+
+
+.trigger_top_off {bottom: -5rem; opacity: 0; transition: 1.4s}
+.trigger_top_on {bottom: 0; opacity: 1; transition: 1.4s}
+
+.trigger_left_off {right: -5rem; opacity: 0; transition: 1.4s;}
+.trigger_left_on {right: 0; opacity: 1; transition: 1.4s;}
+
+.trigger_right_off {left: -5rem; opacity: 0; transition: 1.4s;}
+.trigger_right_on {left: 0; opacity: 1; transition: 1.4s;}
+
+.trigger_bot_off {top: -5rem; opacity: 0; transition: 1.4s}
+.trigger_bot_on {top: 0; opacity: 1; transition: 1.4s}
+
+.trigger_opa_off {opacity: 0; transition: 1.4s}
+.trigger_opa_on {opacity: 1; transition: 1.4s}
+
+.trigger_fil_off {filter: blur(20px); opacity: 0; transition: 1.4s}
+.trigger_fil_on {filter: blur(0); opacity: 1; transition: 1.4s}
+
+.trigger_act_off {transition: 1.4s}
+.trigger_act_on {transition: 1.4s}
+
+.fillter_blur {filter: blur(20px); opacity: 0; transition: 1.4s}
+.fillter_blur.fillter_off {filter: blur(0); opacity: 1; transition: 1.4s}
+
+.fillter_left {right: -5rem; opacity: 0; transition: 1.4s;}
+.fillter_left.fillter_off {right: 0; opacity: 1; transition: 1.4s;}
+
+.fillter_top {bottom: -5rem; opacity: 0; transition: 1.4s;}
+.fillter_top.fillter_off {bottom: 0; opacity: 1; transition: 1.4s;}
