@@ -573,8 +573,8 @@ body{
 }
 
 .sec07 .swiper p{
-    font-size: 30px;
-    line-height: 44px;
+    font-size: 1.5625vw;
+    line-height: 2.2917vw;
     margin-bottom: 35px;
 }
 .sec07 .swiper img{
@@ -604,7 +604,7 @@ body{
     z-index: -1;
 }
 .sec08 .tit_wrap{
-    padding: 235px 0 0 180px;
+    padding: 12.2396vw 0 0 9.3750vw;
     color: #fff;
     font-family: "JejuMyeongjoOTF";
 }
@@ -621,8 +621,8 @@ body{
 }
 .sec08 .sign{
     position: absolute;
-    right: 80px;
-    bottom: 160px;
+    right: 4.1667vw;
+    bottom: 8.3333vw;
 }
 @media (max-width:1200px){
     .sec03 .inner{
@@ -704,6 +704,12 @@ body{
     .sec02 .deco_txt img{
         width: 100%;
         object-fit: contain;
+    }
+    .sec02 .txt_wrap .title::after{
+        width: 12px;
+        height: 12px;
+        top: -12px;
+        left: -12px;
     }
     .sec03.mo_only{}
     .sec03.mo_only .mo_doc{

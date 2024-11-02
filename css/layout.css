@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     padding: 0 100px;
     position: relative;
+    z-index: 100;
 }
 
 .header_wrap .top_wrap .phone{
@@ -56,6 +57,7 @@ header {
     height: 2px;
     position: absolute;
     right: 0;
+    transition: 0.4s;
 }
 .header_wrap .top_wrap .ham_btn .line1{
     width: 50px;
@@ -111,6 +113,7 @@ header {
     display: flex;
 }
 
+/* 스크롤 내렸을 때 헤더 스타일 */
 header.bw {
     background-color: #fff;
 }
@@ -128,17 +131,44 @@ header.bw .bottom_wrap{
     display: none;
 }
 
+/* 메뉴 열렸을 때, 헤더 스타일 */
+header.active .header_wrap .top_wrap .ham_btn .line{
+    background-color: #fff !important;
+}
+header.active .header_wrap .top_wrap{
+    border-bottom: none;
+}
+header.active .header_wrap .top_wrap .ham_btn .line{
+    background-color: #fff;
+    height: 2px;
+    position: absolute;
+    right: 0;
+}
+header.active .header_wrap .top_wrap .ham_btn .line1{
+    width: 50px;
+    top:50%;
+    transform: rotate(15deg);
+}
+header.active .header_wrap .top_wrap .ham_btn .line2{
+    top: 50%;
+    transform: rotate(-15deg);
+    width: 50px;
+}
+header.active .header_wrap .top_wrap .logo a{
+    background-image: url(/assets/img/layout/lnb_logo_bw.png);
+}
 
 
  /* 퀵바 */
  .quick_btn_wrap{
     position: fixed;
-    right: 82px;
-    bottom: 120px;
+    right: 4.2708vw;
+    bottom: 6.2500vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 14px;
+    z-index: 80;
  }
 
  @media (max-width:880px) {
@@ -154,7 +184,7 @@ header.bw .bottom_wrap{
  /* 빠른 상담 바 */
 .consult_btn_wrap{
     position: fixed;
-    z-index: 200;
+    z-index: 80;
     top: 100%;
 }.consult_btn_wrap.active{
     transform: translateY(-200px);
@@ -239,6 +269,124 @@ header.bw .bottom_wrap{
     background-color: #fff;
     cursor: pointer;
 }
+
+/* pc 메뉴 */
+.pc_menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/img/layout/pc_menu_bg.png');
+    background-size: cover;
+    transform: translateY(-100%);
+    transition: 0.4s;
+    opacity: 0;
+    background-position: center;
+}
+.pc_menu.active{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.pc_menu{}
+.pc_menu .menu_wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.pc_menu .menu_wrap .menu_list{
+    /* display: flex; */
+    margin-left: 13.8542vw;
+
+}
+.pc_menu .menu_wrap .menu{
+    display: flex;
+    cursor: pointer;
+}
+.pc_menu .menu_wrap .menu:hover li{
+    color: #957064;
+}
+.pc_menu .menu_wrap .menu a::after{
+    content: '';
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #957064;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+}
+.pc_menu .menu_wrap .menu a:hover::after{
+    opacity: 1;
+}
+.pc_menu .menu_wrap .menu + .menu{
+    margin-top: 54px;
+}
+.pc_menu .menu_wrap .tit{
+    display: flex;
+    align-items: center;
+}
+.pc_menu .menu_wrap small{
+    font-size: 1.2500vw;
+    font-family: "CormorantGaramond";
+    margin-right: 28px;
+}
+.pc_menu .menu_wrap h1{
+    font-size: 2.1875vw;
+    font-family: "JejuMyeongjoOTF";
+    min-width: 10.6771vw;
+    margin-right: 2.7083vw;
+    transition: 0.4s;
+}
+.pc_menu .menu_wrap .menu:hover h1{
+    color:#957064;
+}
+.pc_menu .menu_wrap ul{
+    display: flex;
+}
+.pc_menu .menu_wrap li{
+    color: #D2C5C0;
+    transition: 0.4s;
+}
+.pc_menu .menu_wrap li + li{
+    margin-left: 25px;
+}
+.pc_menu .menu_wrap a{
+    font-size: 1.2500vw;
+    position: relative;
+    transition: 0.4s;
+}
+
+.pc_menu .img_wrap{
+    position: relative;
+    width: 24.1146vw;
+    height: 34.4271vw;
+    margin: auto 13.3854vw auto 0;
+}
+.pc_menu .img_wrap img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: 0.4s;
+}
+.pc_menu .img_wrap img.active{
+    opacity: 1;
+}
+/* .header_wrap .pc_menu .top_wrap .logo a{
+    display: block;
+    width: 200px;
+    height: 46px;
+    background-image: url(/assets/img/layout/lnb_logo_bw.png);
+} */
 
 /* 푸터 */
 footer{
@@ -330,6 +478,7 @@ footer .pc_only{
     footer{
         height: auto;
         padding: 22px 16px;
+        margin-bottom: 53px;
     }
     footer .footer_wrap{
         margin: 0;
@@ -370,6 +519,39 @@ footer .pc_only{
     footer .right img{
         width: 100%;
         object-fit: contain;
+    }
+
+    /* 모바일 하단바 */
+    .mo_bar.mo_only{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 54px;
+        background-color: #312A28;
+        color: #fff;
+    }
+    .mo_bar ul{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mo_bar ul li{
+        font-size: 14px;
+        font-weight: bold;
+        flex: 1;
+        height: 20px;
+    }
+    .mo_bar ul li + li{
+        border-left: 1px solid #454C53;
+
+    }
+    .mo_bar ul li a{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 4px;
     }
 }
 

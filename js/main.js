@@ -89,6 +89,12 @@ document.addEventListener("DOMContentLoaded", () => {
       slidesOffsetAfter:34,
       breakpoints: {
         880: {
+          slidesPerView:3,
+          spaceBetween:80,
+          slidesOffsetBefore:263,
+          slidesOffsetAfter:263,
+        },
+        1300: {
           slidesPerView:3.9,
           spaceBetween:124,
           slidesOffsetBefore:263,
