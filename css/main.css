@@ -612,10 +612,12 @@ body{
     font-size: 52px;
     line-height: 70px;
     margin-bottom: 134px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.16);
 }
 .sec08 .tit_wrap h2{
     font-size: 32px;
     line-height: 46px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.16);
 }
 .sec08 .sign{
     position: absolute;
@@ -746,7 +748,223 @@ body{
         width: 100%;
     }
 
-    .sec04{
-        background-color: #9F8B84;
+    .sec04_mo{
+        background: linear-gradient(to bottom, rgba(159, 139, 132, 0.36), rgba(0, 0, 0, 0));
+    }
+    .sec04_mo{
+        position: relative;
+    }
+    .sec04_mo .bg{
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .sec04_mo .cont .tit_img{
+        margin: 0 auto 88px;
+        padding-top: 229px;
+        display: block;
+
+    }
+    .sec04_mo .cont{
+        margin: 0 0 118px;
+    }
+    .sec04_mo .txt_wrap{
+        margin: 0 16px;
+    }
+    .sec04_mo .txt_wrap h5{
+        font-size: 28px;
+        line-height: 44px;
+        margin-bottom: 26px;
+        position: relative;
+    }
+    .sec04_mo .txt_wrap p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+    .sec04_mo .swiper img{
+        width: 84.4444vw;
+    }
+    .sec04_mo .txt_wrap h5::after{
+        content: '';
+        position: absolute;
+        top:50%;
+        width:9px;
+        height: 9px;
+        background-color: #957064;
+    }
+
+    .sec05_mo{
+        position: relative;
+    }
+    .sec05_mo .bg{
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: calc(100% + 1px);
+        height: calc(100% + 1px);
+        object-fit:cover;
+        z-index: -1;
+    }
+    .sec05_mo .tit_wrap{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sec05_mo .tit_wrap p{
+        padding-top: 135px;
+        font-size: 16px;
+        color: #9F8B84;
+        margin-bottom: 20px;
+    }
+    .sec05_mo .tit_wrap h3{
+        padding-bottom: 52px;
+        font-size: 50px;
+        font-family: "CormorantGaramond";
+        color: #fff;
+        line-height: 56px;
+        text-transform: capitalize;
+    }
+
+    .sec05_mo{}
+    .sec05_mo .cont{
+        margin: 0 16px;
+        width: calc(100% - 32px);
+    }
+    .sec05_mo .cont{
+        text-align: center;
+    }
+    .sec05_mo .cont .img_wrap{
+        width: 100%;
+    }
+    .sec05_mo .cont .img_wrap img{
+        display: none;
+        width: 100%;
+        object-fit: cover;
+    }
+    .sec05_mo .cont .img_wrap img.active{
+        display: block;
+    }
+    .sec05_mo .cont h4{
+        font-size: 32px;
+        margin-top: 40px;
+        color: #fff;
+        line-height: 42px;
+        margin-bottom: 40px;
+    }
+    .sec05_mo .cont p{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 45px;
+        color: #fff;
+    }
+    .sec05_mo .cont ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: #C7C3C0;
+        font-size: 16px;
+        max-width: 242px;
+        margin: 0 auto;
+        padding-bottom: 110px;
+        gap: 28px;
+    }
+    .sec05_mo .cont li{
+        padding-bottom: 10px;
+        border-bottom: 2px solid #EEEAE4;
+    }
+    .sec05_mo .cont li.active{
+        color: #8E857E;
+        border-bottom: 2px solid #8E857E;
+    }
+    .sec06{
+        padding: 161px 0 150px;
+        flex-direction: column;
+    }
+    .sec06{
+        overflow-x: hidden;
+    }
+    .sec06 .sub_tit{
+        font-size: 18px;
+        gap: 7px;
+        margin-bottom: 15px;
+    }
+    .sec06 .sub_tit .line{
+        width: 70px;
+    }
+    .sec06 .tit{
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
+    .sec06 .swiper{
+        margin-right: auto;
+        overflow: visible;
+    }
+    .sec06 .tit_wrap::after{
+        width: 94px;
+        height: 88px;
+        background-size: contain;
+        right: 17px;
+        left: auto;
+        top: -40%;
+    }
+    .sec06 .tit_wrap{
+        margin-left: 16px;
+    }
+    .sec07 .top_wrap .tit{
+        font-size: 84px;
+        line-height: 120px;
+    }
+    .sec07 .top_wrap{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        margin-bottom: 128px;
+    }
+    .sec07 .top_wrap .r_tit h5{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sec07 .top_wrap .r_tit p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .sec07 .slide_btn_wrap{
+        bottom:-78px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .sec07 .top_wrap .tit::after{
+        width: 12px;
+        height: 12px;
+        top: 12px;
+        left: -12px;
+    }
+    .sec07 .bot_wrap{
+        padding-top: 65px;
+        padding-bottom: 115px;
+    }
+    .sec07 .swiper p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .sec08 .tit_wrap{
+        padding: 86px 0 0 16px;
+    }
+    .sec08 .tit_wrap h1{
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 104px;
+    }
+    .sec08 .tit_wrap h2{
+        font-size: 20px;
+        line-height: 32px ;
+    }
+    .sec08 .sign{
+        width: 226px;
+        object-fit: contain;
+        right: 32px;
+        bottom: 84px;
     }
 }

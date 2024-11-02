@@ -141,6 +141,15 @@ header.bw .bottom_wrap{
     gap: 14px;
  }
 
+ @media (max-width:880px) {
+    .quick_btn_wrap{
+        display: none;
+    }
+    .consult_btn_wrap{
+        display: none;
+    }
+ }
+
 
  /* 빠른 상담 바 */
 .consult_btn_wrap{
@@ -272,6 +281,100 @@ footer .bottom .txt_wrap span{}
 footer .bottom .txt_wrap span + span{
     margin-left: 39px;
 }
+
+footer .pc_only{
+    display: inline;
+}
+
+@media (max-width:880px) {
+
+    .header_wrap .bottom_wrap{
+        display: none;
+        padding: 20px;
+    }
+    .header_wrap .top_wrap{
+        padding: 20px;
+        height: 80px;
+        border-bottom: 0;
+    }
+    .header_wrap .top_wrap .phone{
+        display: none;
+    }
+    .header_wrap .top_wrap .logo{
+        position: static;
+        transform: translate(0);
+    }
+    .header_wrap .top_wrap .logo a{
+        width: 181px;
+        height: 42px;
+        background-size: contain;
+    }
+    .header_wrap .top_wrap .ham_btn{
+        height: 24px;
+    }
+    .header_wrap .top_wrap .ham_btn .line{
+        width: 36px;
+    }
+    .header_wrap .top_wrap .ham_btn .line1{
+        width: 36px;
+        top: 0;
+    }
+    .header_wrap .top_wrap .ham_btn .line2{
+        width: 36px;
+        top: calc(50% - 1px);
+    }
+    .header_wrap .top_wrap .ham_btn .line3{
+        bottom: 0;
+    }
+
+    footer{
+        height: auto;
+        padding: 22px 16px;
+    }
+    footer .footer_wrap{
+        margin: 0;
+        max-width: 100%;
+    }
+    footer .top{
+        justify-content: space-between;
+    }
+    footer .top a{
+        font-size: 14px;
+    }
+    footer .bottom{
+        flex-direction: column;
+        align-items: start;
+    }
+    footer .bottom .txt_wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    footer .bottom .txt_wrap span{
+        width: 100%;
+        font-size: 12px;
+    }
+    footer .bottom .txt_wrap span + span{
+        margin-left: 0;
+    }
+    footer .mo_only{
+        display: inline;
+        margin-left: 36px;
+    }
+    footer .right{
+        width: 161px;
+        height: 36px;
+        margin: 36px auto 0;
+        padding-bottom: 56px;
+    }
+    footer .right img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
+/* 공통 지도 스타일 */
 .map_wrap .map_intro_wrap .map_intro_txt_02 {
     font-size: 64px;
     font-weight: bold;
