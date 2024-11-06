@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 </head>
 <body>
-<header></header>
+<!-- <header></header> -->
 <section class="sec01">
     <div class="sec01_main_img_wrap">
         <img class="main_img" src="assets/img/about/about_07.png" alt="">
@@ -31,7 +31,10 @@
     <div class="sec01_txt_wrap_01">
         <div class="sec01_txt_01_01">
             <span class="dot"></span>
-            <div>명작 STORY</div>
+            <div class="sec01_txt_01_01_column">
+                <div>명작&nbsp;</div>
+                <div>STORY</div>
+            </div>
         </div>
         <div class="sec01_txt_01_02">명작에서 만날 수 있는 대한민국 1%의 의료진</div>
     </div>
@@ -59,9 +62,9 @@
                 <div class="sec01_description_txt_01_02">마음을 나눕니다.</div>
             </div>
             <div class="description_txt_02">
-                <div>대학병원 및 수련병원에서 17년 이상 진료하고</div>
-                <div>수술하며 실력을 쌓았습니다. 긴 시간 많은 환자분들을</div>
-                <div>만나면서 환자분들이 진심으로 무엇을 원하는지도 알게 되었습니다.</div>
+                <div>대학병원 및 수련병원에서 17년 이상 진료하고<br class="mo_only"/></div>
+                <div>수술하며 실력을 쌓았습니다. 긴 시간 많은<br class="mo_only"/> 환자분들을<br class="pc_only"/> 만나면서 환자분들이 진심으로
+                <br class="mo_only"/> 무엇을 원하는지도 알게 되었습니다.</div>
                 <div>그렇게 쌓은 실력과 진심을 담았습니다.</div>
                 <br/>
                 <div>명작을 만난 경험이 의미있고 특별할 수 있도록</div>
@@ -81,65 +84,108 @@
             <div class="sec02_intro_wrap_01">
                 <div class="sec02_intro_01">MASTERPIECE DOCTORS</div>
                 <div class="sec02_intro_name_wrap">
-                    <div class="sec02_intro_02">울산의대 정교수 출신</div>
-                    <div class="sec02_intro_03"><span>명작이비인후과 이태훈</span>입니다.</div>
+                    <div class="sec02_intro_02">울산의대 정교수 출신<br/>
+                    <span>명작이비인후과&nbsp;<br class="mo_only"/>이태훈</span>입니다.
+                    </div>
                 </div>
             </div>
             <div class="sec02_intro_wrap_02">
-                <div class="sec02_intro_04">누구나 가까운 곳에서 필요한 진료를 받을 권리가 있습니다.</div>
-                <div class="sec02_intro_05">환자를 위한 진료를 위해 오랜 기간 쌓은 노하우로 인사드리겠습니다.</div>
+                <div class="sec02_intro_04">
+                    누구나 가까운 곳에서 필요한 진료를<br class="mo_only"/>받을 권리가 있습니다.<br class="pc_only"/>
+                    환자를 위한 진료를 위해<br class="mo_only"/>오랜 기간 쌓은 노하우로 인사드리겠습니다.
+                </div>
             </div>
-            <div class="sec02_intro_wrap_03">
-                <div class="sec02_intro_06">이&nbsp;태&nbsp;훈</div>
-                <div class="sec02_intro_07">대표원장</div>
-            </div>
-            <div class="sec02_line"></div>
-            <div class="sec02_intro_wrap_04">
-                <div>· 울산의대 정교수출신</div>
-                <div>· L-비중격성형술 개발</div>
-            </div>
-            <div class="popup_btn" onclick="popOpen(0)">
-                <img class="sec02_img" src="/assets/img/about/about_10.png" alt="">
+            <div class="pc_only">
+                <div class="sec02_intro_wrap_03">
+                    <div class="sec02_intro_06">이&nbsp;태&nbsp;훈</div>
+                    <div class="sec02_intro_07">대표원장</div>
+                </div>
+                <div class="sec02_line pc_only"></div>
+                <div class="sec02_intro_wrap_04 pc_only">
+                    <div>· 울산의대 정교수출신</div>
+                    <div>· L-비중격성형술 개발</div>
+                </div>
+                <div class="popup_btn" onclick="popOpen(0)">
+                    <img class="sec02_img" src="/assets/img/about/about_10.png" alt="">
+                </div>
             </div>
         </div>
         <div class="sec02_img_wrap">
+            <div class="sec02_img_mo_wrap mo_only">
+                <div class="sec02_intro_wrap_03">
+                    <div class="sec02_intro_06">이&nbsp;태&nbsp;훈</div>
+                    <div class="sec02_intro_07">대표원장</div>
+                </div>
+                <div class="sec02_line"></div>
+                <div class="between sec02_intro_0">
+                    <div class="sec02_intro_wrap_04">
+                        <div>· 울산의대 정교수출신</div>
+                        <div>· L-비중격성형술 개발</div>
+                    </div>
+                    <div class="popup_btn" onclick="popOpen(0)">
+                        악력 자세히 보기
+                    </div>
+                </div>
+            </div>
             <img src="/assets/img/about/about_02.png" alt="">
         </div>
     </div>
 </section>
 <section class="sec02">
-    <div class="sec02_wrap">
-        <div class="sec02_img_wrap">
-            <img src="/assets/img/about/about_01.png" alt="">
-        </div>
-        <div class="sec02_intro_wrap_right">
+    <div class="sec02_wrap sec02_wrap_reverse">
+        <div class="sec02_intro_wrap_left">
             <div class="sec02_intro_wrap_01">
                 <div class="sec02_intro_01">MASTERPIECE DOCTORS</div>
                 <div class="sec02_intro_name_wrap">
-                    <div class="sec02_intro_02">동아대 의과대학 수석 졸업</div>
-                    <div class="sec02_intro_03"><span> 명작이비인후과 김보영</span>입니다.</div>
+                    <div class="sec02_intro_02">동아대 의과대학 수석 졸업<br/>
+                    <span>명작이비인후과&nbsp;<br class="mo_only"/>김보영</span>입니다.
+                    </div>
                 </div>
             </div>
-
             <div class="sec02_intro_wrap_02">
-                <div class="sec02_intro_04">환자의 의료진이 만나는 공간에 대한 고민을 담았습니다.</div>
-                <div class="sec02_intro_05">명작이비인후과에 찾아오시기까지의 이야기에 귀를 기울이고 있습니다.</div>
-                <div class="sec02_intro_05">아프고 바쁜 마음을 조금은 내려놓고, 따듯한 소통을 나눌 수 있길 바랍니다.</div>
-
+                <div class="sec02_intro_04">
+                    <br class="mo_only"/>환자와 의료진이 만나는 공간에 대한 고민을
+                    <br class="mo_only"> 담았습니다. 
+                    <br class="pc_only"/>명작이비인후과에 찾아오시기까지의
+                    <br class="mo_only"/>이야기에 귀를 기울이고 있습니다.
+                    <br class="pc_only"/>아프고
+                    <br class="mo_only"/>바쁜 마음을 조금은 내려놓고,따뜻한 소통을 나눌 수 있길 바랍니다.
+                </div>
             </div>
-            <div class="sec02_intro_wrap_03">
-                <div class="sec02_intro_06">김&nbsp;보&nbsp;영</div>
-                <div class="sec02_intro_07">대표원장</div>
-            </div>
-            <div class="sec02_line"></div>
-            <div class="sec02_intro_wrap_04">
-                <div>· 동아대 의과대학 수석 졸업</div>
-                <div>· 동아대 의학석사, 박사</div>
-            </div>
-            <div class="popup_btn" onclick="popOpen(1)">
-                <img class="sec02_img" src="/assets/img/about/about_10.png" alt="">
+            <div class="pc_only">
+                <div class="sec02_intro_wrap_03">
+                    <div class="sec02_intro_06">김&nbsp;보&nbsp;영</div>
+                    <div class="sec02_intro_07">대표원장</div>
+                </div>
+                <div class="sec02_line pc_only"></div>
+                <div class="sec02_intro_wrap_04 pc_only">
+                    <div>· 동아대 의과대학 수석 졸업</div>
+                    <div>· 동아대 의학석사,박사</div>
+                </div>
+                <div class="popup_btn" onclick="popOpen(1)">
+                    <img class="sec02_img" src="/assets/img/about/about_10.png" alt="">
+                </div>
             </div>
         </div>
+        <div class="sec02_img_wrap">
+            <div class="sec02_img_mo_wrap mo_only">
+                <div class="sec02_intro_wrap_03">
+                    <div class="sec02_intro_06">김&nbsp;보&nbsp;영</div>
+                    <div class="sec02_intro_07">대표원장</div>
+                </div>
+                <div class="sec02_line"></div>
+                <div class="between sec02_intro_0">
+                    <div class="sec02_intro_wrap_04">
+                        <div>· 동아대 의과대학 수석 졸업</div>
+                        <div>· 동아대 의학석사,박사</div>
+                    </div>
+                    <div class="popup_btn" onclick="popOpen(1)">
+                        악력 자세히 보기
+                    </div>
+                </div>
+            </div>
+            <img src="/assets/img/about/about_01.png" alt="">
+        </div >
     </div>
 </section>
 <section>

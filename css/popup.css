@@ -6,8 +6,8 @@
 .popArea .popBox .cancelIco {
     position: absolute;
     max-width: 5rem;
-    top: 3%;
-    right: 2%;
+    top: 4%;
+    right: 2.5%;
     height: 40px;
     width: 55px;
 }
@@ -17,12 +17,6 @@
     .popArea .popBox .cancelIco {max-width: 2rem; top: 3%; right: 6%;}
 }
 
-* {box-sizing: border-box;}
-html {font-size: 11px; scroll-behavior: smooth;}
-body {font-family: 'NanumSquareAc', sans-serif; scroll-behavior: smooth; color: #000}
-body::-webkit-scrollbar {width: 8px;}
-body::-webkit-scrollbar-thumb {background-color: #ccc; border-radius: 10px; background-clip: padding-box; border: 2px solid transparent;}
-body::-webkit-scrollbar-track {background-color: #fff;}
 .cg {font-family: 'CormorantGaramond', sans-serif;}
 .om {font-family: 'OneMobile', sans-serif;}
 .ns {font-family: 'notoSansKr', sans-serif;}
@@ -177,7 +171,6 @@ body::-webkit-scrollbar-track {background-color: #fff;}
 
 @media all and (max-width: 880px){
     html {font-size: 3.2vw}
-    body {overflow: hidden;}
 
     .pc_view {display: none;}
     .mo_view {display: block;}

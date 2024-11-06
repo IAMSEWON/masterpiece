@@ -1,0 +1,659 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+.flex_center_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex_center_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sec_01 {
+    display: flex;
+    background-image: url('../assets/img/explore/explore_bg_01.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60rem;
+    color: #fff;
+    text-align: center;
+}
+
+.sec_01_content {    
+    display: flex;
+    padding:0px 16.438rem;
+    flex: 1;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sec_01_content h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-family: Cormorant Garamond;
+}
+
+.sec_01_content p {
+    font-size: 3.125rem;    
+    text-align: start;
+}
+
+.sec_02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 60px 20px;
+    height: 52.188rem;
+}
+.sec_02 img {
+    width: 2.938rem;
+    height: 2.688rem;
+}
+
+.sec_02 h4 {
+    font-size: 1.5rem;
+    font-family: Cormorant Garamond;
+    color: #957064;
+    margin-top: 18px;
+}
+
+.sec_02 h2 {
+    margin: 41px 0px 47px;
+    font-size: 5rem;
+    font-family: "JejuMyeongjoOTF";
+}
+
+.sec_02 h2 > span {
+    font-size: 5rem;
+    color: #957064;
+}
+
+.sec_03 {
+    position: relative;
+    display: flex;
+    background: #E8E0DD;
+}
+
+.sec_03 .left_box {
+    position: relative;
+}
+.sec_03 left,
+.sec_03 right {
+    display: flex;
+    flex: 1;
+    width: 50%;
+}
+.sec_03 ul {
+    display: flex;
+    gap: 16px;
+    width: 440px;
+    flex-wrap: wrap;
+}
+.sec_03 ul li {
+    color: #9F8B84;
+    border: 1px solid #9F8B84;
+    padding: 7px 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_03 ul .selected {
+    background: #9F8B84;
+    color: white;
+}
+
+.sec_03 .left_box {
+    gap: 40px;
+
+}
+
+.sec_03 left h4 {
+    font-size: 2rem;
+    font-family: "JejuMyeongjoOTF";
+}
+
+.sec_03 left img {
+    width: 27.5rem;
+    height: 36.25rem;
+    object-fit: cover;
+}
+
+.sec_03 brandname {
+    position: absolute;
+    top: 111px;
+    left: -145px;
+    font-size: 1.25rem;
+    font-family: Cormorant Garamond;
+    color: #9F8B84;
+    transform: rotate(90deg);
+}
+.sec_03 right {
+    display: flex;
+    background-image: url('../assets/img/explore/explore_area_right_01.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 67.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.sec_03 right content {    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sec_03 right content h4 {
+    font-family: Cormorant Garamond;
+    font-size: 2.875rem;
+}
+
+.sec_03 right content h2 {
+    font-family: "JejuMyeongjoOTF";
+    font-size: 1.5rem;
+}
+
+.sec_04 {
+    display: flex;
+    background-image: url('../assets/img/explore/explore_bg_02.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 39.375rem;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.sec_04 h4 {
+    font-size: 3.5rem;
+    font-family: Cormorant Garamond;
+    color: white;
+}
+
+.sec_04 p {
+    font-size: 1.25rem;
+    font-family: Cormorant Garamond;
+    color: white;
+    font-weight: 300;
+}
+.sec_05 {
+    
+}
+.sec_05 left {
+    display: flex;
+    gap: 85px;
+    flex-direction: column;
+    padding-top: 309.5px;
+    padding-left: 264px;
+    padding-right: 125px;
+}
+
+.sec_05 left dot{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #957064;
+    left: -15px;
+    top: -15px;
+}
+
+.sec_05 left h1{
+    position: relative;
+    font-size: 4.375rem;
+    color: #312A28;
+    font-family: "JejuMyeongjoOTF";
+}
+
+.sec_05 left p{
+    position: relative;
+    font-size: 1.125rem;
+    color: #312A28;
+    line-height: 1.875rem;
+}
+
+.sec_05 left .last_p {
+    color: #957064;
+}
+
+.sec_05 right scroll {
+    width: 923px;
+    height: 1294px;
+    display: grid;
+    grid-auto-flow: row;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    border-left: 1px solid #8E857E;
+    border-right: 1px solid #8E857E;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    grid-template-rows: masonry;
+}
+.sec_05 equipment {
+    display: flex;
+    width: 461.5px;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 56px 48px;
+    border-bottom: 1px solid #8E857E;
+    scroll-snap-align: start;
+    padding-top: 234px;
+    border-right: 1px solid #8E857E;
+}
+
+.sec_05 equipment:nth-child(even) {
+    padding-top: 519px;
+}
+
+.sec_05 equipment > title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sec_05 equipment > time {
+    border: 1px solid #957064;
+    color: #957064;
+    padding: 7px 6px;
+    width: fit-content;
+}
+.sec_05 equipment > description {
+    display: block;
+    color:#312A28;
+}
+
+.sec_05 right scroll img {
+    width: 25rem;
+    height: 15rem;
+    object-fit: contain;
+}
+
+.sec_06 {
+    padding:0px 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 293px;
+    margin-bottom: 217px;
+}
+.sec_06 h4 {
+    color: #473834;
+    font-size: 1.5rem;
+    font-family: "JejuMyeongjoOTF";
+}
+.sec_06 h1 {
+    color: #473834;
+    font-size: 3.625rem;
+    font-family: "JejuMyeongjoOTF";
+    margin-top: 31.7px;
+    margin-bottom: 45px;
+}
+.sec_06 h1 > span {
+    color: #957064;
+    font-size: 3.625rem;
+    font-family: "JejuMyeongjoOTF";
+}
+.sec_06 h5 {
+    color: #473834;
+    font-size: 1.125rem;
+    line-height: 30px;
+}
+.sec_06 .title_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+}
+
+.sec_06 .sterilization {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_06 .sterilizationWrap img {
+    width: 27.5rem;
+    height: 30.125rem;
+};
+
+
+.sec_06 .sterilization .system_name {
+    font-size: 1.875rem;
+    color: #312A28;
+    display: block;
+};
+.sec_06 .sterilization .system_number {
+    color: #957064;
+    font-size: 1.25rem;
+};
+
+.sec_06 line {
+    width: 133.5px;
+    background: #473834;
+    height: 1px;
+}
+
+.sec_06 .sterilizationWrap{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+@media (max-width: 880px) {
+    .sec_01 {
+        display: flex;
+        background-image: url('../assets/img/explore/explore_bg_01.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 796px;
+        color: #fff;
+    }
+
+    .sec_01_content {    
+        display: flex;
+        padding:163px 16px;
+        flex: 1;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .sec_01_content h1 {
+        font-size: 50px;
+        margin-bottom: 1rem;
+        font-family: Cormorant Garamond;
+        text-align: start;
+    }
+
+    .sec_01_content p {
+        font-size: 42px;    
+        text-align: start;
+        line-height: 60px;
+    }
+    .sec_02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 60px 20px;
+        height: 614px;
+    }
+    
+    .sec_02 h4 {
+        font-size: 1.5rem;
+        font-family: Cormorant Garamond;
+        color: #957064;
+    }
+    
+    .sec_02 h2 {
+        margin: 41px 0px 47px;
+        font-size: 5rem;
+        font-family: "JejuMyeongjoOTF";
+        line-height: 54px;
+    }
+
+    .sec_02 p {
+        font-size: 1.5rem;
+        line-height: 28px;
+    }
+    
+    .sec_02 h2 > span {
+        font-size: 5rem;
+        color: #957064;
+    }
+
+    .sec_03 {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        background: #E8E0DD;
+    }
+
+    .sec_03 brandname {
+        position: absolute;
+        top: 120px;
+        left: -20px;
+        font-size: 1.25rem;
+        font-family: Cormorant Garamond;
+        color: #9F8B84;
+        transform: rotate(90deg);
+    }
+    .sec_03 left {
+        display: flex;
+        flex: 1;
+        height: 400px;
+        width: auto;
+    }
+    .sec_03 right {
+        width: auto;
+        display: flex;
+        background-image: url('../assets/img/explore/explore_area_right_01.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: center;
+    }
+    .sec_03 right content {    
+        height: 400px;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .sec_03 right content h4 {
+        font-family: Cormorant Garamond;
+        font-size: 14px;
+    }
+
+    .sec_03 right content h2 {
+        font-family: "JejuMyeongjoOTF";
+        font-size: 22px;
+    }
+
+    .sec_03 .left_box {
+        align-items: center;
+        padding: 48px 0px 62px;
+    }
+    .sec_03 ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 46px;
+    }
+    .sec_03 ul li {
+        color: #9F8B84;
+        border: 1px solid #9F8B84;
+        padding: 7px 24px 7px 22px;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec_04 {
+        display: flex;
+        background-image: url('../assets/img/explore/explore_bg_02.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 650px;
+        color: #fff;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 21px;
+    }
+    
+    .sec_04 h4 {
+        font-size: 3.5rem;
+        font-family: Cormorant Garamond;
+        color: white;
+        line-height: 42px;
+    }
+    
+    .sec_04 p {
+        font-size: 1.25rem;
+        font-family: Cormorant Garamond;
+        color: white;
+        line-height: 28px;
+    }
+    .sec_05 {
+        background: #F9F7F7; 
+        height: 1300px;
+    }
+    .sec_05 > div {
+        display: flex;
+        flex-direction: column;
+        padding: 150px 16px 0px;
+    }
+    .sec_05 left {
+        display: flex;
+        gap: 85px;
+        flex-direction: column;
+        padding: 0;
+    }    
+    .sec_05 left dot {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 0;
+        background: #957064;
+        right: 222px;
+        left: 225px;
+        top: -10px;
+    }
+    .sec_05 left h1{
+        position: relative;
+        font-size: 38px;
+        color: #312A28;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec_05 left p{
+        position: relative;
+        font-size: 18px;
+        color: #312A28;
+        line-height: 30px;
+    }
+    .sec_06 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 140px;
+        padding: 0px 16px;
+    }
+    .sec_06 h4 {
+        color: #473834;
+        font-size: 16px;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec_06 h1 {
+        color: #473834;
+        font-size: 3.625rem;
+        line-height: 50px;
+        font-family: "JejuMyeongjoOTF";
+        margin-top: 31.7px;
+        margin-bottom: 45px;
+    }
+    .sec_06 h1 > span {
+        color: #957064;
+        font-size: 3.625rem;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec_06 h5 {
+        color: #473834;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .sec_06 .title_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+    }
+    .sec_06 line {
+        width: 61px;
+        background: #473834;
+        height: 1px;
+    }    
+    .sec_06 .sterilizationWrap {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }    
+    .sec_06 .sterilization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec_06 .sterilizationWrap img {
+        width: 100%;
+        height: 254px;
+        object-fit: cover;
+    }
+    .sec_06 .sterilizationWrap .another_sterilization_img{
+        width: 250px;
+        height: 210.35px;
+    };
+    .sec_06 .sterilization .sterilization_number{
+        font-size:16px;
+    };
+    .sec_06 .sterilization .sterilization_name {
+        color: #957064;
+        font-size: 24px;
+        font-weight: bold;
+    };    
+};
