@@ -344,7 +344,7 @@
         flex-direction: row;
         flex:1;
         gap:24px;
-        width: 535px;
+        width: 100%;
         font-size: 12px;
         font-weight: 300;
     }
