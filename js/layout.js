@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const header = document.querySelector('header');
+    const hamBtn = document.querySelector('header .ham_btn');
+    const pcMenu = document.querySelector('header .pc_menu');
+    let scrollTop = 0;
+
     const handleScroll = () => {
-        const header = document.querySelector('header');
         scrollTop = window.scrollY || document.documentElement.scrollTop;
     
         if (scrollTop >= 40) { // 
@@ -18,9 +22,32 @@ document.addEventListener("DOMContentLoaded", () => {
             consultEl.classList.toggle('active');
         });
     }
-    setTimeout(consultClick, 200);
 
+    let menuClick = () => {
+        header.classList.toggle('active');
+        pcMenu.classList.toggle('active');
+    }
+
+
+    let pcMenuWrap = document.querySelectorAll('.pc_menu .menu_wrap');
+    pcMenuWrap.forEach((cont) => {
+      let menus = cont.querySelectorAll('.menu');
+      let imgs = cont.querySelectorAll('.img_wrap img');
+    
+      menus.forEach((menu, idx) => {
+        menu.addEventListener('mouseenter', () => {
+            imgs.forEach((img) => {
+                img.classList.remove('active');
+            });
+            imgs[idx].classList.add('active');
+        });
+      });
+    });
+
+    setTimeout(consultClick, 200);
     window.addEventListener("scroll", handleScroll);
+    hamBtn.addEventListener("click", menuClick);
+
 
 })
 
