@@ -14,13 +14,19 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
 .map_wrap .map_between {
     display: flex;
     flex-direction: row;
-    gap: 130px;
+    gap: 6.7708vw;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1400px;
 }
 
 .map_wrap .map_intro_wrap {
@@ -35,7 +41,7 @@
 }
 
 .map_wrap .map_intro_wrap .map_intro_txt_02 {
-    font-size: 70px;
+    font-size: 3.6458vw;
     font-weight: 700;
     font-family: Cormorant Garamond;
     color: white;
@@ -43,13 +49,13 @@
     margin-bottom: 14px;
 }
 .map_wrap .map_intro_wrap .map_intro_txt_03 {
-    font-size: 24px;
+    font-size: 1.2500vw;
     color: white;
     font-weight: 300;
     line-height: 38px;
 }
 .map_wrap .map_intro_wrap .map_intro_txt_04 {
-    font-size: 64px;
+    font-size: 3.3333vw;
     font-weight: bold;
     color: white;
     margin-top: 85px;
@@ -68,7 +74,7 @@
     flex-direction: row;
     flex:1;
     gap:24px;
-    width: 535px;
+    width: clamp(430px,27.8646vw,535px);
     font-size: 12px;
     font-weight: 300;
 }
@@ -93,9 +99,15 @@
     font-size: 12px;
     font-weight: 300;
 }
-.map_location_wrap {
+.map_location_wrap.pc_only {
     flex-direction: column;
     display: flex;
+    width: clamp(500px,35.8333vw,688px);
+    min-width: 500px;
+    /* width: 35.8333vw; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .map_location_box {
     display: flex;
@@ -110,6 +122,7 @@
     flex: 1;
     margin-top:30px;
     gap:16px;
+    width: 100%;
 }
 
 .map_location_box .map_location_btn_box {
@@ -248,7 +261,7 @@
     gap: 16px;
     align-items: center;
     color: white;
-    font-size: 22px;
+    font-size: 1.1458vw;
     font-weight: 400;
 }
 .map_wrap .map_icon {
@@ -266,12 +279,14 @@
     flex:1;
     margin-left: 12px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.1458vw;
 }
 
 
-
 @media (max-width: 880px) {        
+    .map_location_wrap.pc_only{
+        display: none;
+    }
     .map_wrap {
         /* padding: 196px 0 162px; */
         position: relative;
