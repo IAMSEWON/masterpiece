@@ -32,6 +32,7 @@ span.color{
     left: 50%;
     transform: translateX(-50%);
     object-fit: cover;
+    overflow: hidden;
     border-radius: 30px;
     width: calc(100% - 106px);
     height: calc(100% - 145px);
@@ -44,6 +45,7 @@ span.color{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -55,6 +57,7 @@ span.color{
 }
 .sec01 h1{
     font-size: 58px;
+    font-weight: bold;
     margin-bottom: 23px;
 }
 .sec01 p{
@@ -291,13 +294,17 @@ span.color{
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 8.5417vw;
 }
 .sec07 .img_wrap{
     width: 716px;
     height: 860px;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
 }
 .sec07 .img_wrap img{
     width: 100%;
@@ -305,5 +312,344 @@ span.color{
     object-fit: contain;
     
 }
+.sec07 .img_wrap img:nth-child(2n){
+    transform: translateY(200px);
+}
+
+.sec07 .txt_wrap{
+    margin-top: 200px;
+}
+.sec07 .txt_wrap h1{
+    margin-top: 34px;
+    color: #fff;
+    font-size: 46px;
+    line-height: 62px;
+}
+.sec07 .txt_wrap p{
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 55px;
+    color: #fff;
+}
+
+.sec08{
+    height: 100vh;
+}
+.sec08 .flex_wrap{
+    display: flex;
+    height: 100%;
+}
+.sec08 .flex_wrap > div{
+    flex:1;
+    max-width: 50vw;
+}
+.sec08 .txt_wrap{
+    background-color: #0C2A4D;
+}
+.sec08 .txt_wrap .ab{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    padding-left: 13.7500vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec08 .txt_wrap h6{
+    color: #F3D1C4;
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.sec08 .txt_wrap h6 .line{
+    width: 113px;
+    height: 1px;
+    background-color: #F3D1C4;
+}
+.sec08 .txt_wrap h1{
+    margin-bottom: 71px;
+    font-size: 48px;
+    line-height: 62px;
+    color: #fff;
+}
+.sec08 .txt_wrap p{
+    color: #A4AAB1;
+    font-size: 18px;
+    line-height: 30px;
+}
+.sec08 .txt_wrap p.w_f{
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.sec08 .txt_wrap{
+    background-color: #0C2A4D;
+
+}
+.sec08 .img_wrap{}
+.sec08 .img_wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
+.sec09{
+    padding: 212px 0;
+}
+.sec09 .inner{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec09 .inner .top_p{
+    font-family: "CormorantGaramond";
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #473834;
+
+}
+.sec09 .inner h1{
+    font-size: 58px;
+    margin-bottom: 60px;
+}
+.sec09 .inner .flex_wrap{
+    display: flex;
+    height: 27.5000vw;
+}
+.sec09 .inner .flex_wrap > div{
+    flex: 1;
+}
+.sec09 .inner .txt_wrap{
+    background-color: #F4F1F1;
+    display: flex;
+    text-align: left;
+    padding-left: 96px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+}
+.sec09 .inner .txt_wrap p{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.sec09 .inner .txt_wrap small{
+    font-size: 18px;
+    line-height: 30px;
+}
+.sec09 .inner .img_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.sec09 .inner .img_wrap img{
+    width: 32.5000vw;
+}
+
+
+
+.sec10 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 1400px;
+    margin: 293px auto 217px;
+}
+.sec10 h4 {
+    color: #473834;
+    font-size: 1.5rem;
+    font-family: "JejuMyeongjoOTF";
+}
+.sec10 h1 {
+    color: #473834;
+    font-size: 3.625rem;
+    font-family: "JejuMyeongjoOTF";
+    margin-top: 31.7px;
+    margin-bottom: 45px;
+}
+.sec10 h1 > span {
+    color: #957064;
+    font-size: 3.625rem;
+    font-family: "JejuMyeongjoOTF";
+}
+.sec10 h5 {
+    color: #473834;
+    font-size: 1.125rem;
+    line-height: 30px;
+}
+.sec10 .title_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+}
+
+.sec10 .sterilization {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec10 .sterilizationWrap img {
+    width: 100%;
+}
+
+.sec10 .sterilization_number{
+    margin: 20px 0 13px;
+    font-size: 20px;
+    color: #957064;
+}
+.sec10 .sterilization_name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sec10 .sterilization .system_name {
+    font-size: 1.875rem;
+    color: #312A28;
+    display: block;
+}
+.sec10 .sterilization .system_number {
+    color: #957064;
+    font-size: 1.25rem;
+}
+
+.sec10 line {
+    width: 133.5px;
+    background: #473834;
+    height: 1px;
+}
+
+.sec10 .sterilizationWrap{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.sec11 .swiper{
+    border: 1px solid red;
+    width: 864px;
+    height: 600px;
+    overflow: visible;
+}
+.sec11 .swiper .next, .sec11 .swiper .prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.sec11 .swiper .next{
+    left: calc(100% + 16px);
+}
+.sec11 .swiper .prev{
+    right: calc(100% + 16px);
+}
+.sec11 .swiper .swiper-slide{
+    position: relative;
+    width: 624px;
+    height: 440px;
+}
+.sec11 .swiper .swiper-slide img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 440px;
+    transition: 0.4s;
+    object-fit: cover;
+}
+.sec11 .swiper .swiper-slide-active {
+    width: 100%;
+    height: 100%;
+}
+.sec11 .swiper .swiper-slide-active img{
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+
+
+@media (max-width:880px) {
+    .sec10 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 100px 0 140px;
+        padding: 0px 16px;
+        width: 100%;
+    }
+    .sec10 h4 {
+        color: #473834;
+        font-size: 16px;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec10 h1 {
+        color: #473834;
+        font-size: 3.625rem;
+        line-height: 50px;
+        font-family: "JejuMyeongjoOTF";
+        margin-top: 31.7px;
+        margin-bottom: 45px;
+    }
+    .sec10 h1 > span {
+        color: #957064;
+        font-size: 3.625rem;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec10 h5 {
+        color: #473834;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 64px;
+    }
+    .sec10 .title_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+    }
+    .sec10 line {
+        width: 61px;
+        background: #473834;
+        height: 1px;
+    }    
+    .sec10 .sterilizationWrap {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }    
+    .sec10 .sterilization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec10 .sterilizationWrap img {
+        width: 100%;
+        height: 254px;
+        object-fit: contain;
+    }
+    .sec10 .sterilizationWrap .another_sterilization_img {
+        width: 250px;
+        height: 210.35px;
+    }
+    
+    .sec10 .sterilization .sterilization_number {
+        font-size: 16px;
+        margin-bottom: 11px;
+        margin-top: 24px;
+        color: #957064;
+    }
+    
+    .sec10 .sterilization .sterilization_name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
