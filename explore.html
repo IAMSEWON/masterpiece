@@ -40,31 +40,57 @@
     </section>
 
 
+    
     <!-- Section 03 -->
     <section class="sec_03 flex_row">
       <left class="flex_center_row">
         <div class="left_box flex_col">
           <brandname>MASTERPIECE ENT CLINIC</brandname>
-          <img id="left_hover_img" src="assets/img/explore/explore_area_left_01.png" alt="">
-          <h4>명작이라는 공간을 만나다.</h4>
-          <ul id="room-list" class="flex_row pc_only"></ul>
-          <div>
+          <div class="pc_only">
+            <img id="left_hover_img" src="assets/img/explore/explore_area_left_01.png" alt="">
+          </div>
+          <h4 class="pc_only">명작이라는 공간을 만나다.</h4>
+          <div class="mo_only">  
             <!-- Swiper -->
-            <div class="swiper mySwiper">
+            <div class="swiper area-swiper">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_02.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_03.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_04.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_05.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_06.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_07.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_08.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img id="swiper-img" src="assets/img/explore/explore_area_left_09.png" alt="">
+                </div>
               </div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
             </div>
+            <div class="flex_center_row">
+              <h4 class="mo_only sec_03_mo_h4 ">명작이라는<br>공간을 만나다.</h4>
+            </div>
+          </div>
+          <div class="">
+            <ul id="room-list" class="flex_row"></ul>
           </div>
 
         </div>
@@ -174,14 +200,6 @@
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
-    const swiper = new Swiper(".swiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
-  <script>
     const equipmentWrap = document.querySelector("#equipmentWrap");
 
     const equipments = [
@@ -249,6 +267,15 @@
 
   </script>
   <script>
+
+
+    const areaSwiper = new Swiper(".area-swiper", {      
+      loop:true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
     const rooms = ["진료실", "수술실", "입원실", "수면다원검사실", "수액실", "검사실", "상담실", "휴게실", "수면 조정실"];
 
     let selectedIndex = 0; 
@@ -285,6 +312,7 @@
 
           document.querySelectorAll("#room-list li").forEach(li => li.classList.remove("selected"));
           listItem.classList.add("selected");
+          areaSwiper.slideToLoop(index);
         });
 
         listItem.addEventListener("mouseleave", () => {
@@ -293,6 +321,16 @@
           rightHoverImg.style.backgroundImage = `url(assets/img/explore/explore_area_right_${selectedImgIndex}.png)`;
         });
         roomList.appendChild(listItem);
+      });
+
+      // 슬라이드 변경 시 해당하는 텍스트 요소에도 클래스 업데이트
+      areaSwiper.on('slideChange', () => {
+        const activeIndex = areaSwiper.realIndex; // loop 옵션 사용 시 realIndex 사용
+        rooms.forEach((el, index) => {
+          const listItem = document.createElement("li");
+
+          listItem.classList.add("selected");
+        });
       });
     }
 

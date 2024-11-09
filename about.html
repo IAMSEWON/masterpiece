@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 </head>
 <body>
-<!-- <header></header> -->
+<header></header>
 <section class="sec01">
     <div class="sec01_main_img_wrap">
         <img class="main_img" src="assets/img/about/about_07.png" alt="">
@@ -111,19 +111,21 @@
             </div>
         </div>
         <div class="sec02_img_wrap">
-            <div class="sec02_img_mo_wrap mo_only">
-                <div class="sec02_intro_wrap_03">
-                    <div class="sec02_intro_06">이&nbsp;태&nbsp;훈</div>
-                    <div class="sec02_intro_07">대표원장</div>
-                </div>
-                <div class="sec02_line"></div>
-                <div class="between sec02_intro_0">
-                    <div class="sec02_intro_wrap_04">
-                        <div>· 울산의대 정교수출신</div>
-                        <div>· L-비중격성형술 개발</div>
+            <div class="mo_only">
+                <div class="sec02_img_mo_wrap">
+                    <div class="sec02_intro_wrap_03">
+                        <div class="sec02_intro_06">이&nbsp;태&nbsp;훈</div>
+                        <div class="sec02_intro_07">대표원장</div>
                     </div>
-                    <div class="popup_btn" onclick="popOpen(0)">
-                        악력 자세히 보기
+                    <div class="sec02_line"></div>
+                    <div class="between sec02_intro_0">
+                        <div class="sec02_intro_wrap_04">
+                            <div>· 울산의대 정교수출신</div>
+                            <div>· L-비중격성형술 개발</div>
+                        </div>
+                        <div class="popup_btn" onclick="popOpen(0)">
+                            악력 자세히 보기
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,19 +170,21 @@
             </div>
         </div>
         <div class="sec02_img_wrap">
-            <div class="sec02_img_mo_wrap mo_only">
-                <div class="sec02_intro_wrap_03">
-                    <div class="sec02_intro_06">김&nbsp;보&nbsp;영</div>
-                    <div class="sec02_intro_07">대표원장</div>
-                </div>
-                <div class="sec02_line"></div>
-                <div class="between sec02_intro_0">
-                    <div class="sec02_intro_wrap_04">
-                        <div>· 동아대 의과대학 수석 졸업</div>
-                        <div>· 동아대 의학석사,박사</div>
+            <div class="mo_only">
+                <div class="sec02_img_mo_wrap">
+                    <div class="sec02_intro_wrap_03">
+                        <div class="sec02_intro_06">김&nbsp;보&nbsp;영</div>
+                        <div class="sec02_intro_07">대표원장</div>
                     </div>
-                    <div class="popup_btn" onclick="popOpen(1)">
-                        악력 자세히 보기
+                    <div class="sec02_line"></div>
+                    <div class="between sec02_intro_0">
+                        <div class="sec02_intro_wrap_04">
+                            <div>· 동아대 의과대학 수석 졸업</div>
+                            <div>· 동아대 의학석사,박사</div>
+                        </div>
+                        <div class="popup_btn" onclick="popOpen(1)">
+                            악력 자세히 보기
+                        </div>
                     </div>
                 </div>
             </div>
@@ -215,13 +219,10 @@
         <div class="cancelIco pointer" onclick="popClose()" style="display: inline;"></div>
     </div>
 </div>
-<div class="scroll_txt">scroll down <img src="assets/img/main/scroll_arr.png" alt=""></div>
 <footer></footer>
 </body>
 <script>
     function popOpen(c){
-        console.log('🔥🔥about/popOpen :136 - c = ', c);
-
         $('.popArea').show();
         $('.popBg').css('height','3px');
         $('.popBg').animate({
