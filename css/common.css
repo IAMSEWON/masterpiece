@@ -71,6 +71,7 @@
 body{
   font-family: "NotoSans", sans-serif;
   color: #312A28;
+  overflow-x: hidden;
 }
 
 /* 제주폰트 클래스 */
