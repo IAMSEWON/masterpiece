@@ -28,7 +28,7 @@ span.color{
 }
 .sec_01 .sec_01_bg {
     display: flex;
-    background-image: url('/assets/img/infusion/sec01_main_v.png');
+    background-image: url('/assets/img/infusion/sec01.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -95,7 +95,7 @@ span.color{
     content: '';
     position: absolute;
     top:0px;
-    left: 462px;
+    left: 550px;
     width: 16px;
     height: 16px;
     background-color: #957064;
@@ -122,186 +122,124 @@ span.color{
     bottom: -134px;
     right: 0;
     width: 54.1667vw;
+    z-index: 2;
 }
 
-.sec03{
-    background-color: #F4F1F1;
-}
-.sec03 .top{
-    text-align: center;
-    padding: 332px 0 189px;
-    border-bottom: 1px solid #CCBBB5;
-}
-.sec03 .top h3{
-    font-size: 48px;
-    margin-bottom: 50px;
-}
-.sec03 .top p{
-    line-height: 34px;
-    font-size: 20px;
-}
-.sec03 .bot{
-    margin-left: 13.7500vw;
-    padding-top: 114px;
-}
-.sec03 .d_img{
-    max-width: 622px;
-    max-height: 802px;
-    width: 32.3958vw;
-    height: 41.7708vw;
-}
-.sec03 .bot .flex_wrap{
-    display: flex;
-    align-items: end;
-    gap: 34px;
-}
-.sec03 .bot h5{
-    font-size: 20px;
-    font-family: "CormorantGaramond";
-    color: #9F8B84;
-    margin-bottom: 34px;
-    text-transform: uppercase;
-}
-.sec03 .bot h3 img{
-    /* height: 2.6042vw; */
-}
-.sec03 .bot h3{
-    font-size: 50px;
-    line-height: 62px;
-    margin-bottom: 82px;
-}
-.sec03 .bot .name_wrap{
-    display: flex;
-    gap: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #4E473D;
-    align-items: end;
-    margin-bottom: 29px;
-}
-.sec03 .bot .name_wrap .name{
-    font-size: 40px;
-    font-weight: 700;
-}
-.sec03 .bot .name_wrap p{
-    color: #957064;
-    font-size: 22px;
 
-}
-.sec03 .bot .info{
-    line-height: 38px;
-    font-size: 20px;
-    padding-bottom: 117px;
-}
-
-.sec04{
-    background-color: #786A65;
-
-}
-.sec04 .wrap{
-    width: 90%;
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    padding: 164px 0;
-}
-.sec04 .wrap .left{
-    background-color: #4B3A34;
-    height: 502px;
-    flex: 1;
+.sec_03 {
+    width: 100%;
+    height: 643px;
+    position: relative;
+    background: #F4F1F1;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 322px;
+    padding-bottom: 133px;
 }
-.sec04 .wrap .right{
-    height: 502px;
-    flex: 1;
-    background-color: #fff;
-    padding-left: 80px;
+
+.sec_03 .sec_box_01 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+}
+
+.sec_03 .sec_box_01 p {
+    color: #4E473D;
+    font-size: 24px;
+    font-family: "CormorantGaramond";
+    line-height: 34px;
+}
+
+
+.sec_03 .sec_box_01 h1 {
+    color: black;
+    font-size: 3rem;
+    font-family: "JejuMyeongjoOTF";
+}
+
+.sec_03 .sec_box_01 h1 > span {
+    color: #957064;
+}
+
+.sec04{
+    background: url('/assets/img/infusion/sec04.png');
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: center;
+}
+.sec04 .inner{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.sec04 .inner > div{
+    flex: 1;
+    width: 50%;
+}
+
+.sec04 .left{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: start;
+    text-align: center;
+    gap: 22px;
     flex-direction: column;
 }
-.sec04 .wrap .right h6{
-    font-size: 24px;
-    margin-bottom: 16px;
-}
-.sec04 .wrap .right h3{
-    font-size: 44px;
-    color: #957064;
-    margin-bottom: 64px;
-    line-height: 58px;
-}
-.sec04 .wrap .right b{
-    font-weight: 700;
-    margin-bottom: 21px;
-    font-size: 18px;
-}
-.sec04 .wrap .right p{
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.sec05{
-    padding: 560px 0 388px;
-}
-.sec05 .img_wrap, .sec05 .sub_title{
-    max-width: 1400px;
-    width: 90%;
-    margin: 0 auto;
-}
-.sec05 .img_wrap{
-    display: flex;
-    gap: 16px;
-    margin-top: 54px;
-}
-.sec05 .img_wrap ul{}
-.sec05 .img_wrap li{}
-.sec05 .img_wrap img{}
-.sec05 .img_wrap .txt{
-    padding-top: 22px;
-}
-.sec05 .img_wrap .txt small{
-    font-size: 16px;
-    color: #957064;
+.sec04 .left h3{
     font-family: "CormorantGaramond";
+    font-size: 30px;
+    font-weight: 600;
+    color: #957064;
 }
-.sec05 .img_wrap .txt p{
-    padding-top: 14px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 38px;
+.sec04 .left h1{
+    font-family: "JejuMyeongjoOTF";
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.sec04 .left p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #4E473D;
 }
 
-.sec06 {
-    background-color: #957064;
-    position: relative;
+.sec04 .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 130px 0;
 }
-.sec06 h2{
-    color: #fff;
-    font-size: 46px;
-    line-height: 64px;
+.sec04 .right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
-.sec06 h2.color{
-    color: #F3D1C4;
-    margin-bottom: 45px;
+.sec04 .right li{
+    padding: 33px 0 28px;
+    width: 426px;
 }
-.sec06 p{
-    color: #fff;
-    font-size: 16px;
-    line-height: 28px;
-}
+.sec04 .right li + li{
+    border-top: 1px solid #8E857E;
 
-.sec06 img{
-    position: absolute;
-    bottom: 63px;
-    right: 132px;
+}
+.sec04 .right h5{
+    color: #957064;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.sec04 .right h4{
+    font-family: "JejuMyeongjoOTF";
+    font-size: 32px;
 }
 
 .sec07{
-    background: url('/assets/img/infusion/sec07_bg.png');
+    background: url('/assets/img/sleep/sec07_bg.png');
     padding: 216px 0;
 }
 
@@ -353,72 +291,66 @@ span.color{
 }
 
 .sec08{
-    height: 100vh;
-}
-.sec08 .flex_wrap{
+    color: #fff;
+    background: url('/assets/img/infusion/sec08.png');
     display: flex;
-    height: 100%;
 }
-.sec08 .flex_wrap > div{
-    flex:1;
-    max-width: 50vw;
-}
-.sec08 .txt_wrap{
-    background-color: #0C2A4D;
-}
-.sec08 .txt_wrap .ab{
-    max-width: 1400px;
-    margin: 0 auto;
+.sec08 .sub_title{
     display: flex;
-    height: 100%;
-    padding-left: 13.7500vw;
     flex-direction: column;
     justify-content: center;
+    padding-left: 13.7500vw;
+    box-sizing: border-box;
 }
-.sec08 .txt_wrap h6{
-    color: #F3D1C4;
+.sec08 .sub_title h1{
+    font-size: 58px;
+    line-height: 74px;
+    margin-bottom: 40px;
+    width: calc(50vw - 13.7500vw);
+}
+.sec08 .sub_title span.color{
+    color: #FFD7A5;
+}
+.sec08 .sub_title p{
+    font-family: "CormorantGaramond";
+    text-transform: uppercase;
     font-size: 24px;
-    margin-bottom: 30px;
-    display: flex;
-    gap: 44px;
-    align-items: center;
 }
-.sec08 .txt_wrap h6 .line{
-    width: 113px;
-    height: 1px;
-    background-color: #F3D1C4;
+.sec08 .right{
+    border-left:1px solid #fff;
+    width: 50vw;
 }
-.sec08 .txt_wrap h1{
-    margin-bottom: 71px;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 62px;
-    color: #fff;
+.sec08 .right li{
+    position: relative;
+    padding: 102px 0 76px 80px;
+    
 }
-.sec08 .txt_wrap p{
-    color: #A4AAB1;
-    font-size: 18px;
-    line-height: 30px;
+.sec08 .right li + li{
+    border-top: 1px solid #fff;
 }
-.sec08 .txt_wrap p.w_f{
-    color: #fff;
-    margin-top: 40px;
-    font-weight: bold;
+.sec08 .right h4{
+    font-size: 32px;
+    margin-bottom: 29px;
 }
-.sec08 .txt_wrap{
-    background-color: #0C2A4D;
+.sec08 .right p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.sec08 .right .r_i{
+    position: absolute;
+    top: 50%;
+    right: 8.4896vw;
+    transform: translateY(-50%);
+    height: 4.4792vw;
 
 }
-.sec08 .img_wrap{}
-.sec08 .img_wrap img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 
 .sec09{
-    padding: 212px 0;
+    padding: 0 0 262px;
+    background-color: #F4F1F1;
+}
+.sec09 .sub_title{
+    margin-bottom: 70px;
 }
 .sec09 .inner{
     max-width: 1400px;
@@ -435,7 +367,6 @@ span.color{
 }
 .sec09 .inner h1{
     font-size: 58px;
-    margin-bottom: 60px;
 }
 .sec09 .inner .flex_wrap{
     display: flex;
@@ -445,13 +376,14 @@ span.color{
     flex: 1;
 }
 .sec09 .inner .txt_wrap{
-    background-color: #F4F1F1;
+    background-color: #E8E3DC;
     display: flex;
     text-align: left;
-    padding-left: 96px;
+    padding: 0 60px;
     justify-content: center;
     flex-direction: column;
     max-width: 700px;
+    min-height: 500px;
 }
 .sec09 .inner .txt_wrap p{
     font-size: 24px;
@@ -468,11 +400,56 @@ span.color{
     align-items: center;
     justify-content: center;
     background-color: #000;
+    min-height: 500px;
 }
 .sec09 .inner .img_wrap img{
-    width: 32.5000vw;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
+.sec09 .img_wrap{
+    position: relative;
+}
+.sec09 .img_wrap .ab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.sec09 .img_wrap .ab h6{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 31px;
+}
+.sec09 .img_wrap .ab p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.sec09 .txt_wrap ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec09 .txt_wrap ul li{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 28px;
+}
+.sec09 .txt_wrap ul li + li {
+    border-top: 1px solid #CCBBB5;
+    padding-top: 38px;
+}
 
 
 .sec10 {
@@ -633,13 +610,6 @@ span.color{
         margin-left: 16px;
         
     }
-    .sec04 .wrap{
-        flex-direction: column;
-        width: calc(100% - 31px);
-    }
-    .sec04 .wrap .right{
-        padding: 50px 20px;
-    }
 }
 @media (max-width:880px) {
     .sec_01{
@@ -655,6 +625,9 @@ span.color{
         padding: 0;
     }
     .sec_01 .sec_01_bg {
+        background-image: url('/assets/img/infusion/sec01_m.png');
+    }
+    .sec_01 .sec_01_bg {
         display: flex;
         background-size: cover;
         background-position: center;
@@ -668,7 +641,7 @@ span.color{
         border-radius: 30px;
     }
     .sec_01 .sec_01_content {
-        transform: translateY(-54px);
+        transform: translateY(-34px);
     }
     
     .sec_01_bg h2 {
@@ -692,7 +665,7 @@ span.color{
     
     .sec_01_bg p {
         color: black;
-        font-size: 20px;    
+        font-size: 16px;    
         text-align: center;
         line-height: 28px;
     }
@@ -742,7 +715,7 @@ span.color{
         /* margin-bottom: 61px; */
     }
     .sec02 .wrap h1.color::after{
-        left: 244px;
+        left: 295px;
         height: 8px;
         width: 8px;
     }
@@ -761,17 +734,108 @@ span.color{
         margin-top: 68px;
     }
 
-    .sec03 .top{
-        padding: 80px 0;
+
+    .sec_03 {
+        width: 100%;
+        height: 346px;
+        padding-top: 104px;
+        position: relative;
+        background: #F4F1F1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
     }
-    .sec03 .top h3{
-        font-size: 28px;
+    
+    .sec_03 .sec_box_01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        text-align: center;
+    }
+    
+    .sec_03 .sec_box_01 p {
+        color: #4E473D;
+        font-size: 16px;
+        font-family: "CormorantGaramond";
+        line-height: 28px;
+    }
+    
+    
+    .sec_03 .sec_box_01 h1 {
         line-height: 38px;
-        margin-bottom: 45px;
+        color: black;
+        font-size: 38px;
+        font-family: "JejuMyeongjoOTF";
     }
-    .sec03 .top p{
+    
+    .sec_03 .sec_box_01 h1 > span {
+        color: #957064;
+    }
+
+    .sec04{
+        background: url('/assets/img/infusion/sec04_m.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+
+    .sec04 .inner{
+        width: calc(100% - 32px);
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0 120px;
+    }
+    .sec04 .inner > div{
+        width: 100%;
+    }
+    
+    .sec04 .left{
+        margin-bottom: 73px;
+        gap: 20px;
+    }
+    .sec04 .left h3{
+        font-size: 16px;
+    }
+    .sec04 .left h1{
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+    .sec04 .left p{
         font-size: 16px;
         line-height: 28px;
+    }
+    
+    .sec04 .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec04 .right ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .sec04 .right li{
+        padding: 27px 0 24px;
+        width: 283px;
+    }
+    .sec04 .right li + li{
+        border-top: 1px solid #8E857E;
+    
+    }
+    .sec04 .right h5{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .sec04 .right h4{
+        font-size: 22px;
     }
     .sec10 {
         display: flex;
@@ -782,127 +846,7 @@ span.color{
         width: 100%;
     }
 
-    .sec03 .bot{
-        margin-left: 16px;
-        padding-top: 120px;
-    }
-    .sec03 .bot .flex_wrap{
-        flex-direction: column;
-    }
 
-    .sec03 .bot h5{
-        font-size: 16px;
-        margin-bottom: 24px;
-    }
-    .sec03 .bot h3 img{
-        height: 40px;
-    }
-    .sec03 .bot h3{
-        font-size: 32px;
-        line-height: 48px;
-        margin-bottom: 18px;
-    }
-    .sec03 .d_img{
-        margin: 0 auto;
-    }
-    .sec03 .txt_wrap{
-        width: 100%;
-    }
-    .sec03 .bot .name_wrap{
-        margin-top: 39px;
-        gap: 16px;
-        padding-bottom: 18px;
-        margin-bottom: 23px;
-    }
-    .sec03 .bot .info{
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .sec03 .bot .name_wrap p{
-        font-size: 16px;
-    }
-    .sec03 .bot .name_wrap .name{
-        font-size: 28px;
-        letter-spacing: 10px;
-    }
-    .sec04 .wrap .right h6{
-        font-size: 18px;
-        margin-bottom: 16px;
-    }
-    .sec04 .wrap .right h3{
-        font-size: 28px;
-        line-height: 39px;
-        margin-bottom: 29px;
-    }
-    .sec04 .wrap .right b{
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 23px;
-    }
-    .sec10 h4 {
-        color: #473834;
-        font-size: 16px;
-        font-family: "JejuMyeongjoOTF";
-    }
-    .sec04 .wrap{
-        padding: 64px 0;
-        flex-direction: column;
-    }
-    .sec04 .left img{
-        width: 271px;
-        height: 200px;
-        margin: 40px 20px;
-    }
-
-    .sec05{
-        padding: 130px 0;
-    }
-    .sec05 .img_wrap{
-        flex-direction: column;
-        width: calc(100% - 32px);
-        margin: 0 auto;
-        gap: 74px;
-    }
-
-    .sub_title p{
-        font-size: 16px;
-    }
-    .sec05 .img_wrap .txt small{
-        font-size: 16px;
-    }
-    .sec05 .img_wrap .txt p{
-        padding-top: 14px;
-        font-size: 24px;
-        line-height: 38px;
-    }
-    .sec05 .sub_title p{
-        text-align: center;
-        line-height: 28px;
-        margin-bottom: 64px;
-    }
-    .sec05 .img_wrap img{
-        width: 100%;
-        height: 77.7778vw;
-        object-fit: cover;
-    }
-    .sub_title h1{
-        text-align: center;
-        font-size: 38px;
-        line-height: 50px;
-        margin-bottom: 41px;
-    }
-    .sec05 .img_wrap .txt{
-        padding-top: 30px;
-        text-align: center;
-    }
-
-    .sec06{
-        padding: 150px 0;
-    }
-    .sec06 h2{
-        font-size: 28px;
-        line-height: 38px;
-    }
     .sec07 .swiper{
         width: 280px;
         overflow: visible;
@@ -933,59 +877,74 @@ span.color{
         margin: 30px 0 45px;
         line-height: 40px;
     }
-    .sec08{
-        height: auto;
+    .sec07 .swiper{
+        margin-top: 58px;
     }
-    .sec08 .img_wrap{
-        height: 94.4444vw;
-    }
-    .sec08 .txt_wrap .ab{
-        padding: 78px 0 66px;
-        margin: 0;
-    }
-    .sec08 .flex_wrap{
-        flex-direction: column-reverse;
-    }
-    .sec08 .flex_wrap > div{
+    .sec07 .swiper img{
         width: 100%;
-        max-width: none;
+        height: 100%;
+        object-fit: cover;
     }
-    .sec08 .txt_wrap{
-        text-align: center;
+
+
+    .sec08{
+        flex-direction: column;
+        background: url('/assets/img/infusion/sec08_m.png') no-repeat;
+        background-size: cover;
     }
-    .sec08 .txt_wrap h6{
+    .sec08 .sub_title{
+        width: calc(100% - 32px);
+        margin: 0 16px;
+        padding: 0;
+        padding: 81px 0 71px;
+    }
+    .sec08 .right{
+        width: 100%;
+    }
+    .sec08 .sub_title h1{
+        width: 100%;
+        margin-bottom: 24px;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .sec08 .sub_title p{
+        margin: 0;
         font-size: 16px;
-        margin-bottom: 22px;
-        align-items: center;
-        justify-content: center;
     }
-    .sec08 .txt_wrap h6 .line{
-        display: none;
+
+    .sec08 .right{
+        border-left:none;
     }
-    .sec08 .txt_wrap h1{
-        font-size: 32px;
-        line-height: 42px;
-        margin-bottom: 32px;
+    .sec08 .right li{
+        position: relative;
+        padding: 40px 16px;
+        border-top: 1px solid #fff;
+
     }
-    .sec08 .txt_wrap p{
+    .sec08 .right li + li{
+        
+    }
+    .sec08 .right h4{
+        font-size: 24px;
+        margin-bottom: 19px;
+    }
+    .sec08 .right p{
         font-size: 16px;
+        line-height: 28px;
     }
-    .sec08 .txt_wrap p.w_f{
-        margin-top: 45px;
+    .sec08 .right .r_i{
+        top: 22px;
+        right: 16px;
+        height: 60px;
+        transform: translate(0);
     }
-    .sec10 h1 {
-        color: #473834;
-        font-size: 3.625rem;
-        line-height: 50px;
-        font-family: "JejuMyeongjoOTF";
-        margin-top: 31.7px;
-        margin-bottom: 45px;
-    }
+
+
     .sec09{
-        padding: 130px 0 0;
+        padding: 120px 0 130px;
     }
     .sec09 .inner .flex_wrap{
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: auto;
     }
     .sec09 .inner .top_p{
@@ -996,19 +955,10 @@ span.color{
         font-size: 40px;
         line-height: 50px;
     }
-    .sec10 h1 > span {
-        color: #957064;
-        font-size: 3.625rem;
-        font-family: "JejuMyeongjoOTF";
-    }
-    .sec10 h5 {
-        color: #473834;
-        font-size: 16px;
-        line-height: 30px;
-        margin-bottom: 64px;
-    }
+
     .sec09 .inner .img_wrap{
-        height: 240px;
+        height: 77.7778vw;
+        min-height: auto;
     }
     .sec09 .inner .flex_wrap > div{
         flex:none;
@@ -1017,7 +967,7 @@ span.color{
         width: 249px;
     }
     .sec09 .inner .txt_wrap{
-        padding: 41px 18px;
+        padding: 37px 17px;
         width: 100%;
         max-width: none;
     }
@@ -1029,6 +979,36 @@ span.color{
     .sec09 .inner .txt_wrap small{
         font-size: 16px;
         line-height: 28px;
+    }
+    .sec09 .img_wrap .ab{
+        display: flex;
+    }
+    .sec09 .img_wrap .ab h6{
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .sec09 .img_wrap .ab p{
+        font-size: 16px;
+    }
+    .sec09 .inner .img_wrap img{
+        width: 100%;
+    }
+    .sec09 .txt_wrap ul li{
+        font-size: 16px;
+    }
+    .sec09 .inner .txt_wrap{
+        min-height: auto;
+    }
+    .sec10 h1 > span {
+        color: #957064;
+        font-size: 3.625rem;
+        font-family: "JejuMyeongjoOTF";
+    }
+    .sec10 h5 {
+        color: #473834;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 64px;
     }
     .sec10 .title_box {
         display: flex;
