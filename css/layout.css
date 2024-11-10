@@ -458,37 +458,46 @@ footer .pc_only {
     display: none;
     padding: 20px;
   }
+
   .header_wrap .top_wrap {
     padding: 20px;
     height: 80px;
     border-bottom: 0;
   }
+
   .header_wrap .top_wrap .phone {
     display: none;
   }
+
   .header_wrap .top_wrap .logo {
     position: static;
     transform: translate(0);
   }
+
   .header_wrap .top_wrap .logo a {
     width: 181px;
     height: 42px;
     background-size: contain;
   }
+
   .header_wrap .top_wrap .ham_btn {
     height: 24px;
   }
+
   .header_wrap .top_wrap .ham_btn .line {
     width: 36px;
   }
+
   .header_wrap .top_wrap .ham_btn .line1 {
     width: 36px;
     top: 0;
   }
+
   .header_wrap .top_wrap .ham_btn .line2 {
     width: 36px;
     top: calc(50% - 1px);
   }
+
   .header_wrap .top_wrap .ham_btn .line3 {
     bottom: 0;
   }
@@ -498,42 +507,52 @@ footer .pc_only {
     padding: 22px 16px;
     margin-bottom: 53px;
   }
+
   footer .footer_wrap {
     margin: 0;
     max-width: 100%;
   }
+
   footer .top {
     justify-content: space-between;
   }
+
   footer .top a {
     font-size: 14px;
   }
+
   footer .bottom {
     flex-direction: column;
     align-items: start;
   }
+
   footer .bottom .txt_wrap {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
+
   footer .bottom .txt_wrap span {
     width: 100%;
     font-size: 12px;
   }
+
   footer .bottom .txt_wrap span + span {
     margin-left: 0;
   }
+
   footer .mo_only {
     display: inline;
     margin-left: 36px;
   }
+
   footer .right {
     width: 161px;
     height: 36px;
     margin: 36px auto 0;
     padding-bottom: 56px;
   }
+
   footer .right img {
     width: 100%;
     object-fit: contain;
@@ -549,25 +568,29 @@ footer .pc_only {
     background-color: #312a28;
     color: #fff;
   }
+
   .mo_bar ul {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: space-between;
   }
+
   .mo_bar ul li {
     font-size: 14px;
     font-weight: bold;
     flex: 1;
     height: 20px;
   }
+
   .mo_bar ul li + li {
     border-left: 1px solid #454c53;
   }
+
   .mo_bar ul li a {
     justify-content: center;
     display: flex;
     align-items: center;
     gap: 4px;
   }
-
+}
