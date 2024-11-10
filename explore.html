@@ -328,8 +328,9 @@
 
     const equipment = new Swiper(".equipment_swiper", {
       loop:true,
-      slidesPerView:3,
-      spaceBetween:16,
+      slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
+      spaceBetween: 16,           // 슬라이드 간의 간격
+      centeredSlides: true,       // 가운데 정렬
       navigation: {
         nextEl: ".swiper-button-next-equipment",
         prevEl: ".swiper-button-prev-equipment",
@@ -392,13 +393,20 @@
       });
 
       // 슬라이드 변경 시 해당하는 텍스트 요소에도 클래스 업데이트
+      // #room-list li.selected 추가해야돼
+      // rightHoverImg 슬라이드 변경 시 이미지 변경
       areaSwiper.on('slideChange', () => {
         const activeIndex = areaSwiper.realIndex; // loop 옵션 사용 시 realIndex 사용
-        rooms.forEach((el, index) => {
-          const listItem = document.createElement("li");
 
-          listItem.classList.add("selected");
-        });
+        document.querySelectorAll("#room-list li").forEach(li => li.classList.remove("selected"));
+        document.querySelectorAll("#room-list li")[activeIndex].classList.add("selected");
+
+        const selectedImgIndex = String(activeIndex + 1).padStart(2, '0');
+        leftHoverImg.src = `assets/img/explore/explore_area_left_${selectedImgIndex}.png`;
+        rightHoverImg.style.backgroundImage = `url(assets/img/explore/explore_area_right_${selectedImgIndex}.png)`;
+
+
+        
       });
     }
 

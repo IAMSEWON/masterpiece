@@ -206,14 +206,14 @@
     font-size: 40px;
     color: #957064;
     margin-bottom: 1rem;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
     text-align: center;
 }
 
 .sec_01_bg h1 {
     font-size: 58px;
     margin-bottom: 1rem;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
     font-weight: bold;
     color: black;
     text-align: center;
@@ -252,7 +252,7 @@
 .sec_02 .sec_box_01 p {
     color: #957064;
     font-size: 24px;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
 }
 
 
@@ -330,7 +330,7 @@
 .sec_03 .sec_box_01 p {
     color: #4E473D;
     font-size: 24px;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
     line-height: 34px;
 }
 
@@ -385,7 +385,7 @@
     font-size: 1.5rem;
     color: #957064;
     margin:30px 0px 36px;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
 }
 
 .sec_04 .sec_box_01 h1 {
@@ -441,7 +441,7 @@
 .sec_05 .sec_box_01 p {
     color: #473834;
     font-size: 20px;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
     font-weight: 600;
 }
 
@@ -562,7 +562,7 @@
     font-size: 26px;
     color: #FFD7A5;
     margin-bottom: 1rem;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
 }
 
 .sec_06_bg h1 {
@@ -758,7 +758,7 @@
 .step_content h2{
     color: #957064;
     font-size: 20px;
-    font-family: "Cormorant Garamond";
+    font-family: ""CormorantGaramond"";
     margin-bottom: 26px;
 }
 .step_content h1 {
@@ -825,7 +825,7 @@
     align-items: center;
     gap: 26px;
     color: #A4AAB1;
-    font-family: Cormorant Garamond;
+    font-family: "CormorantGaramond";
 }
 .sec_10 .sec_txt_01 .line{
     flex-grow: 0.2;
@@ -883,14 +883,14 @@
         font-size: 26px;
         color: #957064;
         margin-bottom: 25px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
         text-align: center;
     }
     
     .sec_01_bg h1 {
         font-size: 58px;
         margin-bottom: 1rem;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
         font-weight: bold;
         color: black;
         text-align: center;
@@ -900,7 +900,7 @@
     
     .sec_01_bg p {
         color: black;
-        font-size: 20px;    
+        font-size: 16px;
         text-align: center;
         line-height: 28px;
     }
@@ -969,7 +969,7 @@
     .sec_02 .sec_box_01 p {
         color: #957064;
         font-size: 18px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
     }
     
     
@@ -1043,7 +1043,7 @@
     .sec_03 .sec_box_01 p {
         color: #4E473D;
         font-size: 16px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
         line-height: 28px;
     }
     
@@ -1081,7 +1081,7 @@
         font-size: 18px;
         color: #957064;
         margin:14px 0px 26px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
     }
     
     .sec_04 .sec_box_01 h1 {
@@ -1198,7 +1198,7 @@
     .sec_05 .sec_box_01 p {
         color: #473834;
         font-size: 16px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
         font-weight: 600;
     }
     
@@ -1307,7 +1307,7 @@
     }
     .sec_06 .sec_06_bg {
         display: flex;
-        background-image: url('../assets/img/dizziness/dizziness_bg_mo_03.png');
+        background-image: url('../assets/img/tinnitus/tinnitus_bg_mo_03.png');
         background-size: cover;
         background-position: center;
         box-shadow:none;
@@ -1328,7 +1328,7 @@
         font-size: 16px;
         color: #FFD7A5;
         margin-bottom: 24px;
-        font-family: Cormorant Garamond;
+        font-family: "CormorantGaramond";
     }
     
     .sec_06_content h1 {

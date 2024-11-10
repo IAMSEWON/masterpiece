@@ -42,7 +42,7 @@
 }
 
 .equipment_swiper .swiper-slide {
-    width: 360px !important;
+    /*width: 360px !important;*/
 }
 
 
@@ -50,12 +50,12 @@
     background: url(../assets/img/explore/explore_area_next_icon.png) no-repeat;
     background-size: 50% auto;
     background-position: center;
-    right: 10px !important;
+    right: 20px !important;
 }
 
 .equipment_swiper .swiper-button-prev-equipment {
     background: url(../assets/img/explore/explore_area_prev_icon.png) no-repeat;
-    left: 10px !important;
+    left: 20px !important;
     background-size: 50% auto;
     background-position: center;
 }
@@ -560,8 +560,8 @@
 
     .sec_03 brandname {
         position: absolute;
-        top: 183px;
-        left: -95px;
+        top: 121px;
+        left: 14px;
         font-size: 1.25rem;
         font-family: CormorantGaramond;
         color: #9F8B84;
@@ -777,9 +777,10 @@
     .sec_05  .equipment_swiper {
         width: 100%;
         margin-top: 67px;
+        padding: 0px 16px;
     }
     .sec_05 equipment {
-        width: 328px;
+        width: 100%;
         align-items: center;
         justify-content: center;
         height: 634px;

@@ -55,6 +55,7 @@
     display: flex;
     flex-direction: column;
     color:white;
+    z-index: 99;
 }
 .sec01 .sec01_txt_wrap_01 .sec01_txt_01_01 {
     font-family: JejuMyeongjoOTF, sans-serif;
@@ -89,7 +90,7 @@
     display: flex;
     font-size: 122px;
     font-weight: 300;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
 }
 .sec01 .sec01_txt_wrap_02 .sec01_txt_02_02 {
     font-size: 20px;
@@ -116,7 +117,7 @@
     color:white;
     font-size: 92px;
     z-index: 2;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
     font-weight: 300;
 }
 
@@ -219,7 +220,7 @@
 .sec02 .sec02_wrap .sec02_intro_01 {
     font-size: 20px;
     color: #9F8B84;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
 }
 .sec02 .sec02_intro_name_wrap {
     line-height: 64px;

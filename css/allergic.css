@@ -206,14 +206,14 @@
     font-size: 40px;
     color: #957064;
     margin-bottom: 1rem;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
     text-align: center;
 }
 
 .sec_01_bg h1 {
     font-size: 58px;
     margin-bottom: 1rem;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -329,7 +329,7 @@
 .sec_03 .sec_box_01 p {
     color: #4E473D;
     font-size: 24px;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
     line-height: 34px;
 }
 
@@ -381,7 +381,7 @@
     font-size: 1.5rem;
     color: #957064;
     margin:30px 0px 36px;
-    font-family: Cormorant Garamond;
+    font-family: CormorantGaramond;
 }
 
 .sec_04 .sec_box_01 h1 {
@@ -1064,7 +1064,7 @@
     .sec_03 .sec_box_01 p {
         color: #4E473D;
         font-size: 16px;
-        font-family: Cormorant Garamond;
+        font-family: CormorantGaramond;
         line-height: 28px;
     }
     
@@ -1102,7 +1102,7 @@
         font-size: 18px;
         color: #957064;
         margin:14px 0px 26px;
-        font-family: Cormorant Garamond;
+        font-family: CormorantGaramond;
     }
     
     .sec_04 .sec_box_01 h1 {

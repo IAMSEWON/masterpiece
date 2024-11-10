@@ -349,7 +349,7 @@
             대한이비인후과 정회원
           </p>
         </div>
-        <a class="move_btn">
+        <a class="move_btn" href="./about.html">
           + View more
         </a>
       </div>
@@ -519,19 +519,6 @@
     <map></map>
     <footer></footer>
   </body>
-  <script>
-    document.querySelector('.move_btn').addEventListener('click', function(event) {
-        event.preventDefault();
-
-        const targetSection = document.querySelector('#sec_08');
-        const offset = 310; // 이동 후 추가로 내릴 거리 (픽셀 단위)
-
-        window.scrollTo({
-            top: targetSection.offsetTop + offset,
-            behavior: 'smooth'
-        });
-    });
-  </script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
