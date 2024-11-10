@@ -1,0 +1,380 @@
+.sec01{
+    width: 100%;
+    height: 4397px;
+    background: url('/assets/img/rhinoplasty/sec1_i_1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec01 .txt1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.sec01 .txt1 h3{
+    font-size: 40px;
+    font-family: "CormorantGaramond";
+    margin-bottom: 41px;
+    font-weight: 600;
+}
+.sec01 .txt1 h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.sec01 .txt1 p{
+    font-size: 20px;
+}
+
+.sec01 .img1{
+    position: relative;
+    padding-top: 270px;
+}
+
+.sec01 .txt2{
+    width: 90%;
+    position: absolute;
+    top: 270px;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec01 .txt2 h2{
+    font-size: 47px;
+    margin-bottom: 27.7px;
+}
+.sec01 .txt2 h1{
+    font-size: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec01 .txt3 {
+    text-align: end;
+    position: absolute;
+    bottom: 412px;
+    left: 316px;
+}
+.sec01 .txt3 h5{
+    font-size: 28px;
+    color: #8ABDFF;
+    margin-bottom: 16px;
+}
+.sec01 .txt3 p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 34px;
+}
+
+
+.sec01 .cont{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+    color: #fff;
+    padding-top: 207px;
+}
+.sec01 .cont .txt h6{
+    font-size: 24px;
+    font-family: "CormorantGaramond";
+    text-transform: uppercase;
+    color: #8ABDFF;
+    margin-bottom: 40px;
+}
+.sec01 .cont .txt h1{
+    font-size: 62px;
+    line-height: 80px;
+    margin-bottom: 52px;
+}
+.sec01 .cont .txt p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 34px;
+    color: #A4AAB1;
+}
+.sec01 .cont .txt p span{
+    color: #fff;
+}
+.sec01 .cont .box{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    background-color: #33383C;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+.sec01 .cont .box .icon{}
+.sec01 .cont .box small{
+    font-size: 18px;
+    color: #A4AAB1;
+    line-height: 30px;
+}
+.sec01 .cont .more{
+    margin-top: 34px;
+}
+.sec01 .cont .more a{
+    display: flex;
+    align-items: center;
+    color: #8ABDFF;
+    gap: 16px;
+    font-size: 20px;
+}
+
+.sec01 .cont .img{
+    width: 31.2500vw;
+    height: 630px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.sec01 .cont .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec02{}
+.sec02 .cont1{
+    padding-top: 233px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec02 .cont1 h2{
+    font-size: 60px;
+    font-family: "CormorantGaramond";
+    color: #957064;
+    margin-bottom: 67px;
+    text-align: center;
+}
+.sec02 .cont1 h1{
+    font-size: 62px;
+    line-height: 90px;
+    margin-bottom: 219px;
+}
+.sec02 .cont1 h1 span{
+    font-weight: bold;
+    position: relative;
+}
+.sec02 .cont1 h1 span::after{
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110%;
+    height: 31px;
+    background-color: #CCBBB5;
+    z-index: -1;
+    opacity: 0.48;
+}
+.sec02 .cont1 h5{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.sec02 .cont1 h5 span{
+    color: #957064;
+}
+.sec02 .cont1 .img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.sec02 .cont1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec02 .cont2{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.sec02 .cont2 .top{
+    padding-bottom: 50px;
+}
+.sec02 .cont2 .bottom{
+    padding-top: 50px;
+    justify-content: end;
+    border-top: 1px solid #A4AAB1;
+}
+.sec02 .cont2 .flex{
+    display: flex;
+    gap: 72px;
+    width: 100%;
+    align-items: center;
+}
+
+.sec02 .cont2 .flex h3 span{
+    color: #957064;
+}
+.sec02 .cont2 .flex h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 56px;
+}
+.sec02 .cont2 .flex p{
+    font-size: 24px;
+    color: #473834;
+    line-height: 38px;
+}
+.sec02 .cont2 .flex .img{}
+.sec02 .cont2 .flex .img img{}
+
+
+.sec02 .cont3 {
+    width: 90%;
+    max-width: 1400px;
+    margin: 478px auto 219px;
+}
+.sec02 .cont3 .flex{
+    display: flex;
+}
+.sec02 .cont3 .flex .left{
+    width: 50%;
+}
+.sec02 .cont3 .flex .left p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.sec02 .cont3 .flex .left h3{
+    font-size: 48px;
+    line-height: 70px;
+}
+.sec02 .cont3 .flex .left h3 span{
+    color: #957064;
+    position: relative;
+}
+.sec02 .cont3 .flex .left h3 span::after{
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #957064;
+    z-index: -1;
+}
+.sec02 .cont3 .flex .left h3 span::before{
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: 12px;
+    height: 12px;
+    background-color: #957064;
+    z-index: -1;
+}
+
+.sec02 .cont3 .flex .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec02 .cont3 .flex .right .c{
+    width: 628px;
+    height: 318px;
+    border: 1px solid #CCBBB5;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sec02 .cont3 .flex .right .c p{
+    font-size: 24px;
+    line-height: 38px;
+}
+.sec02 .cont3 .flex .right .c p span{
+    font-weight: bold;
+}
+
+.sec03 .cont{
+    display: flex;
+}
+.sec03 .cont .img{
+    width: 50vw;
+    height: 900px;
+}
+.sec03 .cont .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec03 .cont .txt{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec03 .cont1 .txt{
+    padding-left: 8.7500vw;
+}
+.sec03 .cont2 .txt{
+    padding-left: 13.7500vw;
+}
+.sec03 .cont2 .txt h6{
+    font-family: "CormorantGaramond";
+    width: 303px;
+}
+.sec03 .cont1 .txt h6{
+    width: 238px;
+}
+.sec03 .cont .txt h6{
+    font-size: 20px;
+    margin-bottom: 24px;
+    position: relative;
+    display: inline-block;
+}
+.sec03 .cont .txt h6::after{
+    content: '';
+    position: absolute;
+    width: 82px;
+    height: 1px;
+    top: 50%;
+    right: -104px;
+    background-color: #fff;
+}
+.sec03 .cont.cont2 .txt h6::after{
+    content: '';
+    position: absolute;
+    width: 82px;
+    height: 1px;
+    top: 50%;
+    right: -104px;
+    background-color: #A4AAB1;
+}
+.sec03 .cont .txt h1{
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 69px;
+}
+.sec03 .cont1 .txt span{
+    color: #FFD7A5;
+}
+.sec03 .cont2 .txt span{
+    color: #957064;
+}
+.sec03 .cont .txt p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.sec03 .cont .txt p + p{
+}
+.sec03 .cont .txt p span{
+    margin-top: 39px;
+    display: inline-block;
+
+}
+
+.sec03 .cont1{
+    background-color: #473834;
+    color: #fff;
+}
