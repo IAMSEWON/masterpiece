@@ -33,32 +33,32 @@
   font-family: "NotoSans";
   font-weight: 300;
   font-display: swap;
-  src: url("../assets/fonts/NotoSans-Light.ttf") format("truetype");
+  src: url("../assets/fonts/NotoSansKR-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "NotoSans";
   font-weight: 400;
   font-display: swap;
-  src: url("../assets/fonts/NotoSans-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/NotoSansKR-Regular.ttf") format("truetype");
   unicode-range:U+AC00-D7A3;
 }
 @font-face {
   font-family: "NotoSans";
   font-weight: 500;
   font-display: swap;
-  src: url("../assets/fonts/NotoSans-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/NotoSansKR-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "NotoSans";
   font-weight: 600;
   font-display: swap;
-  src: url("../assets/fonts/NotoSans-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/NotoSansKR-SemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "NotoSans";
   font-weight: 700;
   font-display: swap;
-  src: url("../assets/fonts/NotoSans-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/NotoSansKR-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -69,7 +69,7 @@
 }
 
 body{
-  font-family: NotoSans;
+  font-family: NotoSans, sans-serif;
   color: #312A28;
   overflow-x: hidden;
 }
