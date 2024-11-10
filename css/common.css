@@ -65,11 +65,11 @@
   font-family: "JejuMyeongjoOTF";
   font-weight: 400;
   font-display: swap;
-  src: url("../assets/fonts/JejuMyeongjoOTF.otf") format("otf");
+  src: url("../assets/fonts/JejuMyeongjo.ttf") format("truetype");
 }
 
 body{
-  font-family: "NotoSans", sans-serif;
+  font-family: NotoSans;
   color: #312A28;
   overflow-x: hidden;
 }
