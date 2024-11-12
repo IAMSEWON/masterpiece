@@ -536,8 +536,11 @@
 }
 .treat_img {
     margin: 0px 195px;
-    height: 424px;
+    /* height: 424px; */
     object-fit: cover;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .sec_06{
@@ -914,6 +917,7 @@
 }
 .sec_12 .sec_12_content .edu_img {
     height: 502px;
+    max-width: 50%;
     object-fit: cover;
 }
 .sec_12 .sec_12_content .sec_12_box {
@@ -1792,6 +1796,7 @@
     }
     .sec_12 .sec_12_content .edu_img {
         height: 280px;
+        max-width: 100%;
     }
     .sec_12 .sec_12_content .sec_12_box {
         background: #F4F1F1;

@@ -245,7 +245,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding:0 120px;
+    padding:120px;
 }
 
 .sec02 .sec02_wrap .sec02_intro_wrap_right {
@@ -330,6 +330,14 @@
 
 
 
+@media (max-width: 1300px) {
+    .sec02 .sec02_wrap{
+        flex-direction: column;
+    }
+    .sec02 .sec02_wrap .sec02_intro_wrap_left, .sec02 .sec02_wrap .sec02_intro_wrap_right, .sec02 .sec02_wrap .sec02_img_wrap{
+        width: 100%;
+    }
+}
 @media (max-width: 880px) {
     .sec01 .sec01_main_img_wrap {
         position: relative;
@@ -553,6 +561,8 @@
     .sec02 .sec02_wrap .sec02_intro_02 span {
         color: #9F8B84;
     }
+
+
 
     .sec02 .sec02_wrap .sec02_intro_wrap_left {
         display: flex;

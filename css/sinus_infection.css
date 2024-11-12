@@ -463,7 +463,7 @@ span.color{
 }
 .sec09 .inner .flex_wrap{
     display: flex;
-    height: 27.5000vw;
+    height: 582px;
 }
 .sec09 .inner .flex_wrap > div{
     flex: 1;
@@ -544,6 +544,18 @@ span.color{
     padding-top: 38px;
 }
 
+@media (max-width:1400px) {
+    .sec08 .txt_wrap .ab{
+        padding-left: 40px;
+    }
+    .sec08 .txt_wrap h1{
+        font-size: 2.5000vw;
+        line-height: 1.6;
+    }
+    .sec08 .txt_wrap h6{
+        font-size: 1.2500vw;
+    }
+}
 
 @media (max-width:880px) {
     .sec_01{
