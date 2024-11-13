@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -13,22 +13,237 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/deviated.css" />
-    <script src="/js/header.js"></script>
-    <script src="/js/footer.js"></script>
-    <script src="js/map.js"></script>
     <script src="/js/layout.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- 메인페이지 css 및 스크립트 -->
-</head>
+  </head>
   <body class="sub_page">
-    <header></header>
+    <header>
+      <!-- pc 메뉴 -->
+      <div class="pc_menu">
+        <div class="menu_wrap">
+          <div class="menu_list">
+            <div class="menu">
+              <div class="tit">
+                <small>01</small>
+                <h1>병원 소개</h1>
+                <ul>
+                  <li><a href="#none">의료진소개</a></li>
+                  <li><a href="#none">진료과목</a></li>
+                  <li><a href="#none">진료후기</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>02</small>
+                <h1>귀 클리닉</h1>
+                <ul>
+                  <li><a href="/dizziness.html">어지럼증</a></li>
+                  <li><a href="/tinnitus.html">이명</a></li>
+                  <li><a href="/hearingloss.html">난청</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>03</small>
+                <h1>코 클리닉</h1>
+                <ul>
+                  <li><a href="/deviated.html">비중격만곡증</a></li>
+                  <li><a href="/allergic.html">알레르기비염</a></li>
+                  <li><a href="/sinus_infection.html">축농증</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>04</small>
+                <h1>3D 코성형</h1>
+                <ul>
+                  <li>
+                    <a href="/rhinoplasty.html">세계 최초 코성형가이드</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>05</small>
+                <h1>수면 클리닉</h1>
+                <ul>
+                  <li><a href="/sleep_clinic.html">수면장애</a></li>
+                  <li><a href="#none">원인·증상</a></li>
+                  <li><a href="#none">재발방지교육</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>06 </small>
+                <h1>수액 클리닉</h1>
+                <ul>
+                  <li><a href="/infusion_clinic.html">추천대상</a></li>
+                  <li><a href="#none">수액종류</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="img_wrap">
+            <img class="active" src="/assets/img/layout/pc_menu_1.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_2.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_3.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_4.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_5.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_6.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 헤더 -->
+      <div class="header_wrap">
+        <div class="top_wrap">
+          <div class="phone">
+            <img
+              src="/assets/img/layout/lnb_phone_icon.png"
+              alt=""
+            />051.977.8000
+          </div>
+          <div class="logo"><a href="/"></a></div>
+          <div class="ham_btn">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3 mo_only"></div>
+          </div>
+        </div>
+        <div class="bottom_wrap">
+          <ul>
+            <li>
+              <div>About 명작</div>
+              <div class="sub">
+                <a href="/about.html">병원소개</a>
+                <a href="/explore.html">둘러보기</a>
+              </div>
+            </li>
+            <li>
+              <div>귀 클리닉</div>
+              <div class="sub">
+                <a href="/dizziness.html">어지럼증</a>
+                <a href="/tinnitus.html">이명</a>
+                <a href="/hearingloss.html">난청</a>
+              </div>
+            </li>
+            <li>
+              <div>코 클리닉</div>
+              <div class="sub">
+                <a href="/deviated.html">비중격만곡증</a>
+                <a href="/allergic.html">알레르기 비염</a>
+                <a href="/sinus_infection.html">축농증</a>
+              </div>
+            </li>
+            <li><a href="/rhinoplasty.html">3D 코성형</a></li>
+            <li><a href="/sleep_clinic.html">수면클리닉</a></li>
+            <li><a href="/infusion_clinic.html">수액클리닉</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- pc 퀵 바 -->
+      <div class="quick_btn_wrap">
+        <div class="quick_menu_btn">
+          <img src="/assets/img/layout/quick_bar_icon_img.png" alt="" />
+
+          <div class="hover">
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_1.png" alt="" />
+              <p>공식 블로그</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_2.png" alt="" />
+              <p>인스타그램</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_3.png" alt="" />
+              <p>네이버 예약</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_4.png" alt="" />
+              <p>전화 문의</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_5.png" alt="" />
+              <p>오시는 길</p>
+            </a>
+          </div>
+        </div>
+        <div class="top_btn">
+          <a href="#"
+            ><img src="/assets/img/layout/top_icon_img.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <!-- pc 빠른 상담바 -->
+      <div class="consult_btn_wrap">
+        <div class="btn">
+          <img src="/assets/img/layout/chk_icon.png" alt="" />빠른 상담신청
+        </div>
+        <div class="inner">
+          <div class="input_wrap">
+            <input type="text" placeholder="이름" />
+            <input type="text" placeholder="연락처 (-없이 숫자만 입력)" />
+            <select id="category-select">
+              <option value="default" disabled selected>상담분야</option>
+              <option value="category1">분야 예시 1</option>
+              <option value="category2">분야 예시 2</option>
+              <option value="category3">분야 예시 3</option>
+              <option value="category4">분야 예시 4</option>
+            </select>
+            <div class="checkbox_wrap">
+              <input type="checkbox" id="consent-checkbox" name="consent" />
+              <label for="consent-checkbox">개인정보 수집/이용 동의하기</label>
+            </div>
+          </div>
+          <div class="request_btn">상담신청</div>
+        </div>
+      </div>
+
+      <!-- 모바일 하단바 -->
+      <div class="mo_bar mo_only">
+        <ul>
+          <li>
+            <a href="#none"
+              ><img
+                src="/assets/img/layout/mo_bar_icon1.png"
+                alt=""
+              />전화상담</a
+            >
+          </li>
+          <li>
+            <a href="#none"
+              ><img src="/assets/img/layout/mo_bar_icon2.png" alt="" />오시는
+              길</a
+            >
+          </li>
+          <li>
+            <a href="#none"
+              ><img src="/assets/img/layout/mo_bar_icon3.png" alt="" />네이버
+              예약</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
     <div class="sec_01">
       <div class="sec_01_bg">
         <div class="sec_01_content">
           <h2>Deviated nasal septum</h2>
-          <h1>명작 <br class="mo_only">비중격만곡증</h1>
+          <h1>명작 <br class="mo_only" />비중격만곡증</h1>
           <p>
-            편안하게 숨쉬는 경험을 <br class="mo_only">
+            편안하게 숨쉬는 경험을 <br class="mo_only" />
             오직 명작에서
           </p>
         </div>
@@ -38,47 +253,69 @@
       <div class="sec_box_01">
         <p>With Masterpiece</p>
         <h1>
-          편안한 호흡으로 <br class="mo_only">높아지는<br>
-         <span><div class="dot"></div>삶의 질</span>과 건강함
+          편안한 호흡으로 <br class="mo_only" />높아지는<br />
+          <span
+            ><div class="dot"></div>
+            삶의 질</span
+          >과 건강함
         </h1>
       </div>
       <div class="sec_box_02">
         <div class="quot_box">
-          <img class="quot" src="../assets/img/tinnitus/dizziness_quot.png" alt="">
+          <img
+            class="quot"
+            src="../assets/img/tinnitus/dizziness_quot.png"
+            alt=""
+          />
           <div class="line"></div>
         </div>
         <p>
-          코 안의 중격이 휘어지면 호흡의 어려움이 <br class="mo_only">생깁니다.<br class="pc_only">
-          명작에서는 풍부한 경험과 <br class="mo_only">고도화된 연구로<br class="pc_only">
-          비중격 교정을 통해 <br class="mo_only">편안한 호흡과 일상을 되찾아드립니다.
+          코 안의 중격이 휘어지면 호흡의 어려움이
+          <br class="mo_only" />생깁니다.<br class="pc_only" />
+          명작에서는 풍부한 경험과 <br class="mo_only" />고도화된 연구로<br
+            class="pc_only"
+          />
+          비중격 교정을 통해 <br class="mo_only" />편안한 호흡과 일상을
+          되찾아드립니다.
         </p>
       </div>
-      <img class="sec_02_bg" src="../assets/img/deviated/deviated_bg_02.png" alt="">
+      <img
+        class="sec_02_bg"
+        src="../assets/img/deviated/deviated_bg_02.png"
+        alt=""
+      />
     </div>
     <div class="sec_03">
       <div class="sec_box_01">
-        <img src="/assets/img/deviated/brown_logo.png" alt="">
+        <img src="/assets/img/deviated/brown_logo.png" alt="" />
         <h4>Deviated Nasal Septum</h4>
         <h1>
-          코막힘을 <br class="mo_only">유발하는 <br class="mo_only"><span>비중격 만곡증</span>
+          코막힘을 <br class="mo_only" />유발하는 <br class="mo_only" /><span
+            >비중격 만곡증</span
+          >
         </h1>
       </div>
       <div class="sec_03_content">
-        <img class="edu_img pc_only" src="assets/img/deviated/deviated_bg_03.png" alt="">
-        <img class="edu_img mo_only" src="assets/img/deviated/deviated_bg_03.png" alt="">
+        <img
+          class="edu_img pc_only"
+          src="assets/img/deviated/deviated_bg_03.png"
+          alt=""
+        />
+        <img
+          class="edu_img mo_only"
+          src="assets/img/deviated/deviated_bg_03.png"
+          alt=""
+        />
         <div class="sec_03_box">
-          <h4>
-            비중격 만곡증이란?
-          </h4>
+          <h4>비중격 만곡증이란?</h4>
           <h6>
-            비중격은 코 내부를 좌우로 나누는 가운데 벽을 말합니다.<br>
-            비중격이 똑바르지 않고 휘어져 있는 경우 코막힘 등의<br>
-            증상이 유발되는데 위 경우를 비중격만곡증이라 합니다.<br>
-            <br>
-            비중격만곡증이 심해 코세척이나<br>
+            비중격은 코 내부를 좌우로 나누는 가운데 벽을 말합니다.<br />
+            비중격이 똑바르지 않고 휘어져 있는 경우 코막힘 등의<br />
+            증상이 유발되는데 위 경우를 비중격만곡증이라 합니다.<br />
+            <br />
+            비중격만곡증이 심해 코세척이나<br />
             약물치료로 증상개선이 어려울 경우 수술을 진행합니다.
           </h6>
-
         </div>
       </div>
     </div>
@@ -88,68 +325,93 @@
           <div class="sec_06_content">
             <h2>Differences Based on Procedure and Experience</h2>
             <h1>
-              술식과 경험이 만드는<br>
+              술식과 경험이 만드는<br />
               <span>명작 비중격교정술</span>
             </h1>
             <h3>
-              “비중격교정술은 흔히 시행되는 수술이지만<br>
+              “비중격교정술은 흔히 시행되는 수술이지만<br />
               술식과 경험에 따른 결과의 차이가 매우 큽니다.”
             </h3>
             <p>
-              사람마다 비중격의 휘어진 위치나 정도가 다르고<br>
-              특히 비중격의 위쪽과 앞쪽은 코를 지탱하는 기둥 역할을<br>
+              사람마다 비중격의 휘어진 위치나 정도가 다르고<br />
+              특히 비중격의 위쪽과 앞쪽은 코를 지탱하는 기둥 역할을<br />
               하기 때문에 교정하기가 쉽지 않습니다.
             </p>
           </div>
         </div>
       </div>
       <div class="mo_only">
-        <div class="sec_06_bg">
-        </div>
+        <div class="sec_06_bg"></div>
         <div class="sec_06_content">
           <h2>Differences Based on Procedure and Experience</h2>
           <h1>
-            술식과 경험이 만드는<br>
+            술식과 경험이 만드는<br />
             <span>명작 비중격교정술</span>
           </h1>
           <h3>
-            “비중격교정술은 흔히 시행되는 수술이지만<br>
+            “비중격교정술은 흔히 시행되는 수술이지만<br />
             술식과 경험에 따른 결과의 차이가 매우 큽니다.”
           </h3>
           <p>
-            사람마다 비중격의 휘어진 위치나 정도가 다르고<br>
-            특히 비중격의 위쪽과 앞쪽은 코를 지탱하는 기둥 역할을<br>
+            사람마다 비중격의 휘어진 위치나 정도가 다르고<br />
+            특히 비중격의 위쪽과 앞쪽은 코를 지탱하는 기둥 역할을<br />
             하기 때문에 교정하기가 쉽지 않습니다.
           </p>
         </div>
       </div>
     </div>
     <div class="sec_scroll">
-      <img class="sec_scroll_bg" src="../assets/img/deviated/deviated_bg_06.png" alt="">
+      <img
+        class="sec_scroll_bg"
+        src="../assets/img/deviated/deviated_bg_06.png"
+        alt=""
+      />
       <div class="sec_scroll_content">
-        <img class="logo" src="../assets/img/deviated/white_logo.png" alt="">
-        <h6>THE BEGINNING OF INNOVATION, <br class="mo_only">L-TYPE SEPTAL CORRECTION</h6>
-        <h3>오랜 시간 <br class="mo_only">혁신을 거듭해 <br class="mo_only">개발한 <br class="mo_only">L형 비중격 교정술</h3>
+        <img class="logo" src="../assets/img/deviated/white_logo.png" alt="" />
+        <h6>
+          THE BEGINNING OF INNOVATION, <br class="mo_only" />L-TYPE SEPTAL
+          CORRECTION
+        </h6>
+        <h3>
+          오랜 시간 <br class="mo_only" />혁신을 거듭해
+          <br class="mo_only" />개발한 <br class="mo_only" />L형 비중격 교정술
+        </h3>
 
-        <h5>L형 비중격 교정술, <br class="mo_only">아직도 낯설게 느껴지시나요?</h5>
+        <h5>
+          L형 비중격 교정술, <br class="mo_only" />아직도 낯설게 느껴지시나요?
+        </h5>
         <div class="line"></div>
         <h4>
-          비중격에서 가장 교정이 <br class="mo_only">어려운 위쪽과 앞쪽의 교정을<br>
-          완벽하게 하는 동시에 <br class="mo_only"><span>비중격을 튼튼하게 재건하며<br><br class="mo_only">
-          비중격이 너무 두꺼워지는 문제도 <br class="mo_only">해결한 수술법</span>입니다.
+          비중격에서 가장 교정이 <br class="mo_only" />어려운 위쪽과 앞쪽의
+          교정을<br />
+          완벽하게 하는 동시에 <br class="mo_only" /><span
+            >비중격을 튼튼하게 재건하며<br /><br class="mo_only" />
+            비중격이 너무 두꺼워지는 문제도 <br class="mo_only" />해결한
+            수술법</span
+          >입니다.
         </h4>
         <div class="scroll_box">
-          <img class="scroll_img_01" src="../assets/img/deviated/deviated_scroll_01.png" alt="">
-          <img class="scroll_img_02" src="../assets/img/deviated/deviated_scroll_02.png" alt="">
+          <img
+            class="scroll_img_01"
+            src="../assets/img/deviated/deviated_scroll_01.png"
+            alt=""
+          />
+          <img
+            class="scroll_img_02"
+            src="../assets/img/deviated/deviated_scroll_02.png"
+            alt=""
+          />
           <h2>
-            이는 SCIE급 국제학술지에 <br class="mo_only">게재되어<br class="pc_only">
-            효과와 안전성을 <br class="mo_only">입증 받았고
-            <br class="pc_only">
+            이는 SCIE급 국제학술지에 <br class="mo_only" />게재되어<br
+              class="pc_only"
+            />
+            효과와 안전성을 <br class="mo_only" />입증 받았고
+            <br class="pc_only" />
             <span>
-              세계적인 <br class="mo_only">학술대회에서 여러 차례 발표와<br>
+              세계적인 <br class="mo_only" />학술대회에서 여러 차례 발표와<br />
               초청강연을 통해 인정
             </span>
-            <br class="pc_only">
+            <br class="pc_only" />
             받았습니다.
           </h2>
         </div>
@@ -160,169 +422,170 @@
         <div class="sec_07_bg">
           <div class="sec_07_content">
             <h1>
-              명작이비인후과<br>
-              코수술<br>
-              ·<br>
-              울산의대 정교수 출신<br>
-              이태훈 대표원장 <br class="mo_only">책임집도
+              명작이비인후과<br />
+              코수술<br />
+              ·<br />
+              울산의대 정교수 출신<br />
+              이태훈 대표원장 <br class="mo_only" />책임집도
             </h1>
             <p>
-              명작이비인후과는 꾸준히 17년 이상의<br class="mo_only"> 임상경력을<br class="pc_only">
-              쌓아온 정교수 <br class="mo_only">출신 전문 의학박사가 진료를 함께합니다.
+              명작이비인후과는 꾸준히 17년 이상의<br class="mo_only" />
+              임상경력을<br class="pc_only" />
+              쌓아온 정교수 <br class="mo_only" />출신 전문 의학박사가 진료를
+              함께합니다.
             </p>
           </div>
         </div>
       </div>
       <div class="sec_box_02">
         <h2>
-          <span>3D 프린팅 코성형가이드 개발<br>L-비중격성형술 개발</span>
+          <span>3D 프린팅 코성형가이드 개발<br />L-비중격성형술 개발</span>
         </h2>
         <div class="sec_07_content_wrap">
           <h5>약력</h5>
           <p>
-            울산의대 이비인후과 조교수, 부교수, 교수<br>
-            미국 스탠포드대학교 안면성형(Facial Plastic<br>Surgery) 및 수면수술(Sleep Surgery) 교환교수
+            울산의대 이비인후과 조교수, 부교수, 교수<br />
+            미국 스탠포드대학교 안면성형(Facial Plastic<br />Surgery) 및
+            수면수술(Sleep Surgery) 교환교수
           </p>
         </div>
         <div class="sec_07_content_wrap">
-          <h5>
-            학회<br class="mo_only">활동
-          </h5>
+          <h5>학회<br class="mo_only" />활동</h5>
           <p>
-            대한이비인후과학회 이사, 수련위원, 의무위원, 법제윤<br>리위원 역임
+            대한이비인후과학회 이사, 수련위원, 의무위원, 법제윤<br />리위원 역임
           </p>
         </div>
-        <a class="move_btn" href="./about.html">
-          + View more
-        </a>
+        <a class="move_btn" href="./about.html"> + View more </a>
       </div>
     </div>
     <div class="sec_08" id="sec_08">
-        <div class="pc_only">
-          <div class="title_box">
-            <h4>하이퀄리티 치료를 위한 명작의 노력</h4>
-            <div class="line"></div>
-          </div>
+      <div class="pc_only">
+        <div class="title_box">
+          <h4>하이퀄리티 치료를 위한 명작의 노력</h4>
+          <div class="line"></div>
         </div>
-        <div class="mo_only">
-          <div class="title_box">
-            <h4>하이퀄리티 치료를 위한
-              <span>
+      </div>
+      <div class="mo_only">
+        <div class="title_box">
+          <h4>
+            하이퀄리티 치료를 위한
+            <span>
               명작의 노력
-                <div class="line"></div>
-              </span>
-            </h4>
-          </div>
+              <div class="line"></div>
+            </span>
+          </h4>
         </div>
-        <h1>명작에서 시작하는<br>경험이 <span>대한민국<br>1%의 경험</span>이 됩니다.</h1>
+      </div>
+      <h1>
+        명작에서 시작하는<br />경험이 <span>대한민국<br />1%의 경험</span>이
+        됩니다.
+      </h1>
     </div>
     <div class="sec_09">
-        <!-- Swiper -->
-        <div class="swiper step-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="step_box">
-                <div class="step_bg step_bg_01">
-                  <div class="step_content">
-                    <div>
-                      <h2 class="pc_only">Special 1</h2>
-                      <h1>
-                        <span>울산의대</span><br>정교수 출신 의료진
-                      </h1>
-                      <div class="line"></div>
-                      <p>
-                        명작이비인후과 의료진은 15년 이상<br>
-                        대학병원 및 수련병원에서 쌓아 올린 <br class="mo_only">풍부한<br class="pc_only">
-                        경험과 진료 노하우를 바탕으로<br>
-                        대한민국 1%의 치료 경험을 제공합니다.
-                      </p>
-                    </div>
-                    <div class="mo_only step_arrow">
-                      <div><</div>
-                      <span>|</span>
-                      <div>></div>
-                    </div>
+      <!-- Swiper -->
+      <div class="swiper step-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="step_box">
+              <div class="step_bg step_bg_01">
+                <div class="step_content">
+                  <div>
+                    <h2 class="pc_only">Special 1</h2>
+                    <h1><span>울산의대</span><br />정교수 출신 의료진</h1>
+                    <div class="line"></div>
+                    <p>
+                      명작이비인후과 의료진은 15년 이상<br />
+                      대학병원 및 수련병원에서 쌓아 올린
+                      <br class="mo_only" />풍부한<br class="pc_only" />
+                      경험과 진료 노하우를 바탕으로<br />
+                      대한민국 1%의 치료 경험을 제공합니다.
+                    </p>
+                  </div>
+                  <div class="mo_only step_arrow">
+                    <div><</div>
+                    <span>|</span>
+                    <div>></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="step_box">
-                <div class="step_bg step_bg_02">
-                  <div class="step_content">
-                    <div>
-                      <h2 class="pc_only">Special 2</h2>
-                      <h1>
-                        <span>정밀검사</span><br class="pc_only">
-                        및 진단
-                      </h1>
-                      <div class="line"></div>
-                      <p>
-                        명작이비인후과는 대학병원급 <br class="mo_only">첨단 장비를<br class="pc_only">
-                        갖추어 보다 정밀한 검사가 <br class="mo_only">가능하며<br class="pc_only">
-                        이를 통해 다양한 증상이 <br class="mo_only">발생하는 질병 원인을<br class="pc_only">
-                        정확하게 <br class="mo_only">분석 진단하여 치료 합니다.
-                      </p>
-                    </div>
-                    <div class="mo_only step_arrow">
-                      <div><</div>
-                      <span>|</span>
-                      <div>></div>
-                    </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="step_box">
+              <div class="step_bg step_bg_02">
+                <div class="step_content">
+                  <div>
+                    <h2 class="pc_only">Special 2</h2>
+                    <h1>
+                      <span>정밀검사</span><br class="pc_only" />
+                      및 진단
+                    </h1>
+                    <div class="line"></div>
+                    <p>
+                      명작이비인후과는 대학병원급 <br class="mo_only" />첨단
+                      장비를<br class="pc_only" />
+                      갖추어 보다 정밀한 검사가
+                      <br class="mo_only" />가능하며<br class="pc_only" />
+                      이를 통해 다양한 증상이 <br class="mo_only" />발생하는
+                      질병 원인을<br class="pc_only" />
+                      정확하게 <br class="mo_only" />분석 진단하여 치료 합니다.
+                    </p>
+                  </div>
+                  <div class="mo_only step_arrow">
+                    <div><</div>
+                    <span>|</span>
+                    <div>></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="step_box">
-                <div class="step_bg step_bg_03">
-                  <div class="step_content">
-                    <div>
-                      <h2 class="pc_only">Special 3</h2>
-                      <h1>
-                        <span>따뜻한</span> 공간
-                      </h1>
-                      <div class="line"></div>
-                      <p>
-                        명작이비인후과는 환자와 의료진이 만나는<br>
-                        공간에 대한 고민을 담았습니다.<br>
-                        환자분들이 아프고 바쁜 마음을<br>
-                        조금은 내려놓고 따뜻한 소통을 할 수 있는<br>
-                        공간이 되도록 만들었습니다.
-                      </p>
-                    </div>
-                    <div class="mo_only step_arrow">
-                      <div><</div>
-                      <span>|</span>
-                      <div>></div>
-                    </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="step_box">
+              <div class="step_bg step_bg_03">
+                <div class="step_content">
+                  <div>
+                    <h2 class="pc_only">Special 3</h2>
+                    <h1><span>따뜻한</span> 공간</h1>
+                    <div class="line"></div>
+                    <p>
+                      명작이비인후과는 환자와 의료진이 만나는<br />
+                      공간에 대한 고민을 담았습니다.<br />
+                      환자분들이 아프고 바쁜 마음을<br />
+                      조금은 내려놓고 따뜻한 소통을 할 수 있는<br />
+                      공간이 되도록 만들었습니다.
+                    </p>
+                  </div>
+                  <div class="mo_only step_arrow">
+                    <div><</div>
+                    <span>|</span>
+                    <div>></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="step_box">
-                <div class="step_bg step_bg_04">
-                  <div class="step_content">
-                    <div>
-                      <h2 class="pc_only">Special 4</h2>
-                      <h1>
-                        <span>책임</span> 진료
-                      </h1>
-                      <div class="line"></div>
-                      <p>
-                        정기적인 안전 점검과 직원 교육을 통한<br>
-                        철저한 병원 관리는 물론 상담부터<br>
-                        검사, 진단, 치료, 회복까지 환자분들이<br>
-                        치료에 집중하고 결과에 만족할 수 있도록<br>
-                        책임지고 진료하겠습니다.
-                      </p>
-                    </div>
-                    <div class="mo_only step_arrow">
-                      <div><</div>
-                      <span>|</span>
-                      <div>></div>
-                    </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="step_box">
+              <div class="step_bg step_bg_04">
+                <div class="step_content">
+                  <div>
+                    <h2 class="pc_only">Special 4</h2>
+                    <h1><span>책임</span> 진료</h1>
+                    <div class="line"></div>
+                    <p>
+                      정기적인 안전 점검과 직원 교육을 통한<br />
+                      철저한 병원 관리는 물론 상담부터<br />
+                      검사, 진단, 치료, 회복까지 환자분들이<br />
+                      치료에 집중하고 결과에 만족할 수 있도록<br />
+                      책임지고 진료하겠습니다.
+                    </p>
+                  </div>
+                  <div class="mo_only step_arrow">
+                    <div><</div>
+                    <span>|</span>
+                    <div>></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -330,8 +593,313 @@
         </div>
       </div>
     </div>
-    <map></map>
-    <footer></footer>
+    <map>
+      <div class="map_wrap">
+        <img class="map_img" src="../assets/img/layout/map_bg.png" />
+        <div class="map_between">
+          <div class="map_intro_wrap">
+            <div class="map_intro_txt_01">진료시간 및 오시는 길</div>
+            <div class="map_intro_txt_02">Masterpiece Contact</div>
+            <div class="map_intro_txt_03">
+              부산 수영구 수영로 693, BNK 수영타워 8층<br />(수영역 1번 출구 앞)
+            </div>
+            <div class="map_intro_txt_04">051.977.8000</div>
+            <div class="map_time_wrap pc_only">
+              <div class="map_time_section_01">
+                <div class="map_time_box">
+                  <div class="map_time_left week_txt">
+                    평&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일
+                  </div>
+                  <div class="map_time_right">AM 09:00 - PM 06:00</div>
+                </div>
+                <div class="map_time_box">
+                  <div class="map_time_left">토 요 일</div>
+                  <div class="map_time_right">AM 09:00 - PM 01:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">점심시간</div>
+                  <div class="map_time_right">PM 12:30 - PM 02:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_03">
+                <div class="map_time_txt_02">
+                  토요일 점심시간 없이 진료 / 일요일 공휴일 휴진
+                </div>
+              </div>
+            </div>
+            <div class="map_time_wrap mo_only">
+              <div class="map_time_section_01">
+                <div class="map_time_box">
+                  <div class="map_time_left week_txt">
+                    평&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일
+                  </div>
+                  <div class="map_time_right">AM 09:00 - PM 06:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">토 요 일</div>
+                  <div class="map_time_right">AM 09:00 - PM 01:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">점심시간</div>
+                  <div class="map_time_right">PM 12:30 - PM 02:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_03">
+                <div class="map_time_txt_02">
+                  토요일 점심시간 없이 진료 / 일요일 공휴일 휴진
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map_location_wrap pc_only">
+            <div class="map_location_box">
+              <img
+                class="map_location_img"
+                src="../assets/img/layout/map_location.png"
+              />
+            </div>
+            <div class="map_location_box">
+              <div class="map_location_btn_box">
+                <div class="map_btn_train map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/train.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_train_txt map_btn_txt">
+                        지하철 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/img/layout/map_arrow_down_icon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_01">
+                      <div>부산</div>
+                      <div class="line_two">2호선</div>
+                      <div class="line_three">3호선</div>
+                    </div>
+                    <div class="map_btn_hover_txt_box_02">
+                      수영역 1번 출구에서 도보 36m에 위치
+                    </div>
+                  </div>
+                </div>
+                <div class="map_btn_bus map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/bus.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_bus_txt map_btn_txt">
+                        버스 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/svg/arrow_down.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_02">
+                      <div class="map_bus_txt_01">
+                        <div>
+                          <span class="map_bus_txt_color">일반버스</span> -
+                          수영교차로 / 수영역
+                        </div>
+                        <div>
+                          5-1, 20, 39, 40, 42, 49, 51, 54, 62, 63, 131, 141,
+                          141(심야), 155, 210, 1001, 1003, 1003(심야), 2026
+                        </div>
+                      </div>
+                      <div class="map_bus_txt_02">
+                        <div class="map_bus_txt_color">마을버스</div>
+                        <div>수영교차로.팔도시장 : <span>해운대구3</span></div>
+                        <div>브라운닷호텔 : <span>수영구2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="map_location_btn_box">
+                <div class="map_btn_car map_btn_border">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/car.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_car_txt map_btn_txt">
+                        자차 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right_02">
+                      부산은행 수영타워 지하 주차장 이용 가능
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map_location_wrap mo_only">
+            <div class="map_location_box">
+              <img
+                class="map_location_img"
+                src="../assets/img/layout/map_location_02.png"
+              />
+            </div>
+            <div class="map_location_box">
+              <div class="map_location_btn_box">
+                <div class="map_btn_train map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/train.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_train_txt map_btn_txt">
+                        지하철 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/img/layout/map_arrow_down_icon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_01">
+                      <div>부산</div>
+                      <div class="line_two">2호선</div>
+                      <div class="line_three">3호선</div>
+                    </div>
+                    <div class="map_btn_hover_txt_box_02">
+                      수영역 1번 출구에서 도보 36m에 위치
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="map_location_btn_box">
+                <div class="map_btn_bus map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/bus.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_bus_txt map_btn_txt">
+                        버스 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/svg/arrow_down.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_02">
+                      <div class="map_bus_txt_01">
+                        <div>
+                          <span class="map_bus_txt_color">일반버스</span> -
+                          수영교차로 / 수영역
+                        </div>
+                        <div>
+                          5-1, 20, 39, 40, 42, 49, 51, 54, 62, 63, 131, 141,
+                          141(심야), 155, 210, 1001, 1003, 1003(심야), 2026
+                        </div>
+                      </div>
+                      <div class="map_bus_txt_02">
+                        <div class="map_bus_txt_color">마을버스</div>
+                        <div>수영교차로.팔도시장 : <span>해운대구3</span></div>
+                        <div>브라운닷호텔 : <span>수영구2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="map_location_btn_box">
+                <div class="map_btn_car map_btn_border">
+                  <div class="map_btn_box_column">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/car.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_car_txt map_btn_txt">
+                        자차 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right_02">
+                      부산은행 수영타워<br />지하 주차장 이용 가능
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </map>
+    <footer>
+      <div class="footer_wrap">
+        <ul class="top">
+          <li><a class="f_w" href="/">개인정보취급방침</a></li>
+          <li><a class="f_w" href="/">이용약관</a></li>
+          <li><a href="/">비급여 항목안내</a></li>
+        </ul>
+        <div class="bottom">
+          <div class="left">
+            <div class="txt_wrap">
+              <span>명작이비인후과의원</span>
+              <span>부산광역시 수영구 수영로 693, 8층 801호</span>
+            </div>
+            <div class="txt_wrap">
+              <span
+                >대표자&nbsp;&nbsp;&nbsp;이태훈
+                <span class="mo_only">TEL&nbsp;&nbsp;051-977-8000</span></span
+              >
+              <span class="pc_only">TEL&nbsp;&nbsp;051-977-8000</span>
+              <span>사업자등록번호&nbsp;&nbsp;304-14-14664</span>
+            </div>
+            <div class="txt_wrap">
+              <span
+                >COPYRIGHT ⓒ 2024 명작이비인후과의원 ALL RIGHTS RESERVED.
+              </span>
+            </div>
+          </div>
+          <div class="right">
+            <img src="/assets/img/layout/footer_logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -341,96 +909,91 @@
         y: "-100%",
         scrollTrigger: {
           trigger: ".sec_scroll",
-          pin:true,
+          pin: true,
           start: "top top",
-          scrub:2,
+          scrub: 2,
           toggleActions: "play none none none",
         },
       });
     });
-
   </script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
-    const texts = document.querySelectorAll('.test_txt');
+    const texts = document.querySelectorAll(".test_txt");
 
     var testSwiper = new Swiper(".test-swiper", {
-      slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
-      spaceBetween: 160,           // 슬라이드 간의 간격
-      centeredSlides: true,       // 가운데 정렬
+      slidesPerView: "auto", // 자동 슬라이드 크기 설정
+      spaceBetween: 160, // 슬라이드 간의 간격
+      centeredSlides: true, // 가운데 정렬
       breakpoints: {
         // when window width is >= 932px
         932: {
-          slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
-          spaceBetween: 160,           // 슬라이드 간의 간격
-          centeredSlides: true,       // 가운데 정렬
-          loop: true,                 // 루프 활성화
+          slidesPerView: "auto", // 자동 슬라이드 크기 설정
+          spaceBetween: 160, // 슬라이드 간의 간격
+          centeredSlides: true, // 가운데 정렬
+          loop: true, // 루프 활성화
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-        }
-      }
+        },
+      },
     });
-    
 
     // 슬라이드 변경 시 해당하는 텍스트 요소에도 클래스 업데이트
-    testSwiper.on('slideChange', () => {
+    testSwiper.on("slideChange", () => {
       const activeIndex = testSwiper.realIndex; // loop 옵션 사용 시 realIndex 사용
       texts.forEach((el, index) => {
-        el.classList.toggle('test_txt_selected', index === activeIndex);
+        el.classList.toggle("test_txt_selected", index === activeIndex);
       });
     });
 
     texts.forEach((text, index) => {
-      text.addEventListener('click', () => {
+      text.addEventListener("click", () => {
         // Swiper 슬라이드를 클릭한 인덱스로 이동 (loop 보정 적용)
         testSwiper.slideToLoop(index);
 
         // 모든 texts에서 'test_txt_selected' 클래스를 제거하고
         // 클릭된 요소에만 클래스 추가
-        texts.forEach(el => el.classList.remove('test_txt_selected'));
-        text.classList.add('test_txt_selected');
+        texts.forEach((el) => el.classList.remove("test_txt_selected"));
+        text.classList.add("test_txt_selected");
       });
     });
 
-
     var stepSwiper = new Swiper(".step-swiper", {
-      slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
-      spaceBetween: 16,           // 슬라이드 간의 간격
-      slidesOffsetBefore:16,
-      slidesOffsetAfter:16,
+      slidesPerView: "auto", // 자동 슬라이드 크기 설정
+      spaceBetween: 16, // 슬라이드 간의 간격
+      slidesOffsetBefore: 16,
+      slidesOffsetAfter: 16,
       breakpoints: {
         // when window width is >= 932px
         932: {
-          slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
-          spaceBetween: 20,           // 슬라이드 간의 간격
-          centeredSlides: true,       // 가운데 정렬
-          loop: true,                 // 루프 활성화
+          slidesPerView: "auto", // 자동 슬라이드 크기 설정
+          spaceBetween: 20, // 슬라이드 간의 간격
+          centeredSlides: true, // 가운데 정렬
+          loop: true, // 루프 활성화
           // autoplay:true,
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-        }
-      }
+        },
+      },
     });
 
     var stepSwiper = new Swiper(".point-swiper", {
-      slidesPerView: 'auto',      // 자동 슬라이드 크기 설정
-      spaceBetween: 16,           // 슬라이드 간의 간격
-      slidesOffsetBefore:16,
-      slidesOffsetAfter:16,
+      slidesPerView: "auto", // 자동 슬라이드 크기 설정
+      spaceBetween: 16, // 슬라이드 간의 간격
+      slidesOffsetBefore: 16,
+      slidesOffsetAfter: 16,
       navigation: {
         nextEl: ".swiper-button-next-point",
         prevEl: ".swiper-button-prev-point",
       },
     });
-
-
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>

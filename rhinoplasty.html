@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -11,8 +11,7 @@
     <!-- 기본 css 및 스크립트 -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <script src="/js/header.js"></script>
-    <script src="/js/footer.js"></script>
+    <link rel="stylesheet" href="/css/layout.css" />
     <script src="/js/layout.js"></script>
     <link
       rel="stylesheet"
@@ -24,7 +23,222 @@
   </head>
 
   <body class="rhinoplasty">
-    <header></header>
+    <header>
+      <!-- pc 메뉴 -->
+      <div class="pc_menu">
+        <div class="menu_wrap">
+          <div class="menu_list">
+            <div class="menu">
+              <div class="tit">
+                <small>01</small>
+                <h1>병원 소개</h1>
+                <ul>
+                  <li><a href="#none">의료진소개</a></li>
+                  <li><a href="#none">진료과목</a></li>
+                  <li><a href="#none">진료후기</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>02</small>
+                <h1>귀 클리닉</h1>
+                <ul>
+                  <li><a href="/dizziness.html">어지럼증</a></li>
+                  <li><a href="/tinnitus.html">이명</a></li>
+                  <li><a href="/hearingloss.html">난청</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>03</small>
+                <h1>코 클리닉</h1>
+                <ul>
+                  <li><a href="/deviated.html">비중격만곡증</a></li>
+                  <li><a href="/allergic.html">알레르기비염</a></li>
+                  <li><a href="/sinus_infection.html">축농증</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>04</small>
+                <h1>3D 코성형</h1>
+                <ul>
+                  <li>
+                    <a href="/rhinoplasty.html">세계 최초 코성형가이드</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>05</small>
+                <h1>수면 클리닉</h1>
+                <ul>
+                  <li><a href="/sleep_clinic.html">수면장애</a></li>
+                  <li><a href="#none">원인·증상</a></li>
+                  <li><a href="#none">재발방지교육</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="tit">
+                <small>06 </small>
+                <h1>수액 클리닉</h1>
+                <ul>
+                  <li><a href="/infusion_clinic.html">추천대상</a></li>
+                  <li><a href="#none">수액종류</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="img_wrap">
+            <img class="active" src="/assets/img/layout/pc_menu_1.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_2.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_3.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_4.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_5.png" alt="" />
+            <img src="/assets/img/layout/pc_menu_6.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 헤더 -->
+      <div class="header_wrap">
+        <div class="top_wrap">
+          <div class="phone">
+            <img
+              src="/assets/img/layout/lnb_phone_icon.png"
+              alt=""
+            />051.977.8000
+          </div>
+          <div class="logo"><a href="/"></a></div>
+          <div class="ham_btn">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3 mo_only"></div>
+          </div>
+        </div>
+        <div class="bottom_wrap">
+          <ul>
+            <li>
+              <div>About 명작</div>
+              <div class="sub">
+                <a href="/about.html">병원소개</a>
+                <a href="/explore.html">둘러보기</a>
+              </div>
+            </li>
+            <li>
+              <div>귀 클리닉</div>
+              <div class="sub">
+                <a href="/dizziness.html">어지럼증</a>
+                <a href="/tinnitus.html">이명</a>
+                <a href="/hearingloss.html">난청</a>
+              </div>
+            </li>
+            <li>
+              <div>코 클리닉</div>
+              <div class="sub">
+                <a href="/deviated.html">비중격만곡증</a>
+                <a href="/allergic.html">알레르기 비염</a>
+                <a href="/sinus_infection.html">축농증</a>
+              </div>
+            </li>
+            <li><a href="/rhinoplasty.html">3D 코성형</a></li>
+            <li><a href="/sleep_clinic.html">수면클리닉</a></li>
+            <li><a href="/infusion_clinic.html">수액클리닉</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- pc 퀵 바 -->
+      <div class="quick_btn_wrap">
+        <div class="quick_menu_btn">
+          <img src="/assets/img/layout/quick_bar_icon_img.png" alt="" />
+
+          <div class="hover">
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_1.png" alt="" />
+              <p>공식 블로그</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_2.png" alt="" />
+              <p>인스타그램</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_3.png" alt="" />
+              <p>네이버 예약</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_4.png" alt="" />
+              <p>전화 문의</p>
+            </a>
+            <a href="#none">
+              <img src="/assets/img/layout/quick_icon_5.png" alt="" />
+              <p>오시는 길</p>
+            </a>
+          </div>
+        </div>
+        <div class="top_btn">
+          <a href="#"
+            ><img src="/assets/img/layout/top_icon_img.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <!-- pc 빠른 상담바 -->
+      <div class="consult_btn_wrap">
+        <div class="btn">
+          <img src="/assets/img/layout/chk_icon.png" alt="" />빠른 상담신청
+        </div>
+        <div class="inner">
+          <div class="input_wrap">
+            <input type="text" placeholder="이름" />
+            <input type="text" placeholder="연락처 (-없이 숫자만 입력)" />
+            <select id="category-select">
+              <option value="default" disabled selected>상담분야</option>
+              <option value="category1">분야 예시 1</option>
+              <option value="category2">분야 예시 2</option>
+              <option value="category3">분야 예시 3</option>
+              <option value="category4">분야 예시 4</option>
+            </select>
+            <div class="checkbox_wrap">
+              <input type="checkbox" id="consent-checkbox" name="consent" />
+              <label for="consent-checkbox">개인정보 수집/이용 동의하기</label>
+            </div>
+          </div>
+          <div class="request_btn">상담신청</div>
+        </div>
+      </div>
+
+      <!-- 모바일 하단바 -->
+      <div class="mo_bar mo_only">
+        <ul>
+          <li>
+            <a href="#none"
+              ><img
+                src="/assets/img/layout/mo_bar_icon1.png"
+                alt=""
+              />전화상담</a
+            >
+          </li>
+          <li>
+            <a href="#none"
+              ><img src="/assets/img/layout/mo_bar_icon2.png" alt="" />오시는
+              길</a
+            >
+          </li>
+          <li>
+            <a href="#none"
+              ><img src="/assets/img/layout/mo_bar_icon3.png" alt="" />네이버
+              예약</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <section class="sec01">
       <div class="mo_img mo_only">
@@ -389,10 +603,14 @@
           명작이비인후과 이태훈 원장은<br class="mo_only" />
           <span>‘코성형수술에서 3D 프린팅 기술을 이용한</span
           ><br class="pc_only" /><br class="mo_only" />
-          <span>수술 가이드의 임상 적용’</span>이라는 주제로 <br class="mo_only" />제10회
-          아시아안면성형학회 및<br class="pc_only" /><br class="mo_only" />
+          <span>수술 가이드의 임상 적용’</span>이라는 주제로
+          <br class="mo_only" />제10회 아시아안면성형학회 및<br
+            class="pc_only"
+          /><br class="mo_only" />
           대한안면성형재건학회에서
-          <span>최우수 구연상을<br class="mo_only" /> 수상하며 학계에서도 우수성을 인정</span
+          <span
+            >최우수 구연상을<br class="mo_only" />
+            수상하며 학계에서도 우수성을 인정</span
           >받았습니다.
         </p>
       </div>
@@ -535,7 +753,313 @@
       </div>
     </div>
 
-    <footer></footer>
+    <map>
+      <div class="map_wrap">
+        <img class="map_img" src="../assets/img/layout/map_bg.png" />
+        <div class="map_between">
+          <div class="map_intro_wrap">
+            <div class="map_intro_txt_01">진료시간 및 오시는 길</div>
+            <div class="map_intro_txt_02">Masterpiece Contact</div>
+            <div class="map_intro_txt_03">
+              부산 수영구 수영로 693, BNK 수영타워 8층<br />(수영역 1번 출구 앞)
+            </div>
+            <div class="map_intro_txt_04">051.977.8000</div>
+            <div class="map_time_wrap pc_only">
+              <div class="map_time_section_01">
+                <div class="map_time_box">
+                  <div class="map_time_left week_txt">
+                    평&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일
+                  </div>
+                  <div class="map_time_right">AM 09:00 - PM 06:00</div>
+                </div>
+                <div class="map_time_box">
+                  <div class="map_time_left">토 요 일</div>
+                  <div class="map_time_right">AM 09:00 - PM 01:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">점심시간</div>
+                  <div class="map_time_right">PM 12:30 - PM 02:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_03">
+                <div class="map_time_txt_02">
+                  토요일 점심시간 없이 진료 / 일요일 공휴일 휴진
+                </div>
+              </div>
+            </div>
+            <div class="map_time_wrap mo_only">
+              <div class="map_time_section_01">
+                <div class="map_time_box">
+                  <div class="map_time_left week_txt">
+                    평&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일
+                  </div>
+                  <div class="map_time_right">AM 09:00 - PM 06:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">토 요 일</div>
+                  <div class="map_time_right">AM 09:00 - PM 01:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_02">
+                <div class="map_time_box">
+                  <div class="map_time_left">점심시간</div>
+                  <div class="map_time_right">PM 12:30 - PM 02:00</div>
+                </div>
+              </div>
+              <div class="map_time_section_03">
+                <div class="map_time_txt_02">
+                  토요일 점심시간 없이 진료 / 일요일 공휴일 휴진
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map_location_wrap pc_only">
+            <div class="map_location_box">
+              <img
+                class="map_location_img"
+                src="../assets/img/layout/map_location.png"
+              />
+            </div>
+            <div class="map_location_box">
+              <div class="map_location_btn_box">
+                <div class="map_btn_train map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/train.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_train_txt map_btn_txt">
+                        지하철 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/img/layout/map_arrow_down_icon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_01">
+                      <div>부산</div>
+                      <div class="line_two">2호선</div>
+                      <div class="line_three">3호선</div>
+                    </div>
+                    <div class="map_btn_hover_txt_box_02">
+                      수영역 1번 출구에서 도보 36m에 위치
+                    </div>
+                  </div>
+                </div>
+                <div class="map_btn_bus map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/bus.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_bus_txt map_btn_txt">
+                        버스 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/svg/arrow_down.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_02">
+                      <div class="map_bus_txt_01">
+                        <div>
+                          <span class="map_bus_txt_color">일반버스</span> -
+                          수영교차로 / 수영역
+                        </div>
+                        <div>
+                          5-1, 20, 39, 40, 42, 49, 51, 54, 62, 63, 131, 141,
+                          141(심야), 155, 210, 1001, 1003, 1003(심야), 2026
+                        </div>
+                      </div>
+                      <div class="map_bus_txt_02">
+                        <div class="map_bus_txt_color">마을버스</div>
+                        <div>수영교차로.팔도시장 : <span>해운대구3</span></div>
+                        <div>브라운닷호텔 : <span>수영구2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="map_location_btn_box">
+                <div class="map_btn_car map_btn_border">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/car.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_car_txt map_btn_txt">
+                        자차 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right_02">
+                      부산은행 수영타워 지하 주차장 이용 가능
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map_location_wrap mo_only">
+            <div class="map_location_box">
+              <img
+                class="map_location_img"
+                src="../assets/img/layout/map_location_02.png"
+              />
+            </div>
+            <div class="map_location_box">
+              <div class="map_location_btn_box">
+                <div class="map_btn_train map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/train.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_train_txt map_btn_txt">
+                        지하철 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/img/layout/map_arrow_down_icon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_01">
+                      <div>부산</div>
+                      <div class="line_two">2호선</div>
+                      <div class="line_three">3호선</div>
+                    </div>
+                    <div class="map_btn_hover_txt_box_02">
+                      수영역 1번 출구에서 도보 36m에 위치
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="map_location_btn_box">
+                <div class="map_btn_bus map_btn_border map_btn_hover">
+                  <div class="map_btn_box">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/bus.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_bus_txt map_btn_txt">
+                        버스 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right">
+                      <img
+                        class="map_arrow_icon"
+                        src="../assets/svg/arrow_down.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="map_btn_hover_box">
+                    <div class="map_btn_hover_txt_box_02">
+                      <div class="map_bus_txt_01">
+                        <div>
+                          <span class="map_bus_txt_color">일반버스</span> -
+                          수영교차로 / 수영역
+                        </div>
+                        <div>
+                          5-1, 20, 39, 40, 42, 49, 51, 54, 62, 63, 131, 141,
+                          141(심야), 155, 210, 1001, 1003, 1003(심야), 2026
+                        </div>
+                      </div>
+                      <div class="map_bus_txt_02">
+                        <div class="map_bus_txt_color">마을버스</div>
+                        <div>수영교차로.팔도시장 : <span>해운대구3</span></div>
+                        <div>브라운닷호텔 : <span>수영구2</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="map_location_btn_box">
+                <div class="map_btn_car map_btn_border">
+                  <div class="map_btn_box_column">
+                    <div class="map_btn_left">
+                      <img
+                        class="map_icon"
+                        src="../assets/svg/car.svg"
+                        alt=""
+                      />
+                      <div class="map_btn_car_txt map_btn_txt">
+                        자차 이용 시
+                      </div>
+                    </div>
+                    <div class="map_btn_right_02">
+                      부산은행 수영타워<br />지하 주차장 이용 가능
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </map>
+    <footer>
+      <div class="footer_wrap">
+        <ul class="top">
+          <li><a class="f_w" href="/">개인정보취급방침</a></li>
+          <li><a class="f_w" href="/">이용약관</a></li>
+          <li><a href="/">비급여 항목안내</a></li>
+        </ul>
+        <div class="bottom">
+          <div class="left">
+            <div class="txt_wrap">
+              <span>명작이비인후과의원</span>
+              <span>부산광역시 수영구 수영로 693, 8층 801호</span>
+            </div>
+            <div class="txt_wrap">
+              <span
+                >대표자&nbsp;&nbsp;&nbsp;이태훈
+                <span class="mo_only">TEL&nbsp;&nbsp;051-977-8000</span></span
+              >
+              <span class="pc_only">TEL&nbsp;&nbsp;051-977-8000</span>
+              <span>사업자등록번호&nbsp;&nbsp;304-14-14664</span>
+            </div>
+            <div class="txt_wrap">
+              <span
+                >COPYRIGHT ⓒ 2024 명작이비인후과의원 ALL RIGHTS RESERVED.
+              </span>
+            </div>
+          </div>
+          <div class="right">
+            <img src="/assets/img/layout/footer_logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
@@ -553,6 +1077,7 @@
           trigger: ".sec_scroll",
           pin: true,
           start: "top top",
+          end:"300% 0%",
           scrub: 2,
           toggleActions: "play none none none",
         },

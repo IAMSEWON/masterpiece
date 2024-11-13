@@ -701,14 +701,15 @@
 .sec_08 {
     display: flex;
     flex-direction: row;
-    padding-left: 214px;
+    padding-left: 11.1458vw;
     align-items: center;
     height: 972px;
-    gap: 180px;
+    gap: 9.3750vw;
 }
 .sec_08 .sec_08_left {
     display: flex;
     flex-direction: column;
+    min-width: 500px;
 }
 
 .sec_08 .sec_08_left h6{
@@ -744,7 +745,7 @@
 }
 
 .sec_08 .sec_08_right img{
-    width: 47.25rem;
+    width: 39.3750vw;
     object-fit: contain;
 }
 .sec_09 {
@@ -1490,6 +1491,8 @@
     .sec_08 .sec_08_left {
         display: flex;
         flex-direction: column;
+        min-width: auto;
+        width: 100%;
     }
 
     .sec_08 .sec_08_left h6{
@@ -1517,7 +1520,7 @@
     .sec_08 .sec_08_right img{
         width: 100%;
         height: 196px;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .sec_09 {
