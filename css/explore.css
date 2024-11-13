@@ -280,6 +280,7 @@
     gap: 85px;
     flex-direction: column;
     padding-top: 309.5px;
+    width: 47.396vw;
     padding-left: 264px;
     padding-right: 125px;
 }
@@ -314,7 +315,7 @@
 .sec_05 .equipment_wrap {
     display: flex;
     flex-direction: row;
-    width: 923px;
+    width: 48.0729vw;
     height: 1294px;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
@@ -327,7 +328,7 @@
 .sec_05 right .equipment_right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .sec_05 equipment {
@@ -486,7 +487,35 @@
     flex-direction: row;
     gap: 36px;
 }
-
+@media  (max-width: 1853px) {
+    .sec_05 left {
+        width: 60vw;
+        display: flex;
+        gap: 85px;
+        flex-direction: column;
+        padding-top: 309.5px;
+        padding-left: 40px;
+        padding-right: 0;
+    }
+    .sec_05 left h1 {
+        font-size: 3.375rem;
+    }
+    .sec_05 .equipment_wrap {
+        flex-direction: column;
+        width: auto;
+        height: 92vh;
+    }
+    .sec_05 equipment {
+        padding: 40px 48px 40px 48px;
+    }
+    .sec_05 .equipment_right equipment {
+        border-left: none;
+    }
+    .sec_05 .equipment_left .equipment_01,
+    .sec_05 .equipment_right .equipment_04{
+        padding-top: 40px;
+    }
+}
 
 @media (max-width: 880px) {
     .sec_01 {
@@ -499,7 +528,7 @@
         color: #fff;
     }
 
-    .sec_01_content {    
+    .sec_01_content {
         display: flex;
         padding:163px 16px;
         flex: 1;
@@ -517,7 +546,7 @@
     }
 
     .sec_01_content p {
-        font-size: 42px;    
+        font-size: 42px;
         text-align: start;
         line-height: 60px;
     }
@@ -530,13 +559,13 @@
         padding: 60px 20px;
         height: 614px;
     }
-    
+
     .sec_02 h4 {
         font-size: 1.5rem;
         font-family: CormorantGaramond;
         color: #957064;
     }
-    
+
     .sec_02 h2 {
         margin: 41px 0px 47px;
         font-size: 5rem;
@@ -548,7 +577,7 @@
         font-size: 1.5rem;
         line-height: 28px;
     }
-    
+
     .sec_02 h2 > span {
         font-size: 5rem;
         color: #957064;
@@ -587,7 +616,7 @@
         color: #fff;
         text-align: center;
     }
-    .sec_03 right content {    
+    .sec_03 right content {
         height: 400px;
         display: flex;
         flex: 1;
@@ -643,14 +672,14 @@
         flex-direction: column;
         gap: 21px;
     }
-    
+
     .sec_04 h4 {
         font-size: 3.5rem;
         font-family: CormorantGaramond;
         color: white;
         line-height: 42px;
     }
-    
+
     .sec_04 p {
         font-size: 1.25rem;
         font-family: CormorantGaramond;
@@ -658,7 +687,7 @@
         line-height: 28px;
     }
     .sec_05 {
-        background: #F9F7F7; 
+        background: #F9F7F7;
         height: 1300px;
     }
     .sec_05 > div {
@@ -671,7 +700,8 @@
         gap: 85px;
         flex-direction: column;
         padding: 0px 16px;
-    }    
+        width: auto;
+    }
     .sec_05 left dot {
         position: absolute;
         width: 10px;
