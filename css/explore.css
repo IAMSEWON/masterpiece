@@ -128,6 +128,9 @@
     padding: 60px 20px;
     height: 52.188rem;
 }
+.sec_02 p{
+    line-height: 1.6;
+}
 .sec_02 img {
     width: 2.938rem;
     height: 2.688rem;
